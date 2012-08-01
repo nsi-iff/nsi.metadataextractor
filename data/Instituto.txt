@@ -1,0 +1,37 @@
+ifto, Instituto Federal de Educação, Ciência e Tecnologia de Tocantins
+ifmt, Instituto Federal de Educação, Ciência e Tecnologia de Mato Grosso
+ifpa, Instituto Federal de Educação, Ciência e Tecnologia do Pará
+ifpb, Instituto Federal de Educação, Ciência e Tecnologia da Paraíba
+ifse, Instituto Federal de Educação, Ciência e Tecnologia de Sergipe
+ifce, Instituto Federal de Educação, Ciência e Tecnologia do Ceará
+ifrr, Instituto Federal de Educação, Ciência e Tecnologia de Roraima
+ifal, Instituto Federal de Educação, Ciência e Tecnologia de Alagoas
+ifcatarinense, Instituto Federal de Educação, Ciência e Tecnologia do Catarinense
+ifsuldeminas, Instituto Federal de Educação, Ciência e Tecnologia do Sul de Minas
+ifsp, Instituto Federal de Educação, Ciência e Tecnologia de São Paulo
+iftriangulomineiro, Instituto Federal de Educação, Ciência e Tecnologia do Triângulo Mineiro
+ifmg, Instituto Federal de Educação, Ciência e Tecnologia de Minas Gerais
+ifsertaopernambucano, Instituto Federal de Educação, Ciência e Tecnologia do Sertão Pernambucano
+ifms, Instituto Federal de Educação, Ciência e Tecnologia de Mato Grosso do Sul
+ifbaiano, Instituto Federal de Educação, Ciência e Tecnologia do Baiano
+ifro, Instituto Federal de Educação, Ciência e Tecnologia de Rondonia
+ifrs, Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul
+ifrn, Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte
+ifb, Instituto Federal de Educação, Ciência e Tecnologia de Brasília
+ifnortedeminas, Instituto Federal de Educação, Ciência e Tecnologia do Norte de Minas
+ifpi, Instituto Federal de Educação, Ciência e Tecnologia do Piauí
+ifam, Instituto Federal de Educação, Ciência e Tecnologia do Amazonas
+ifpr, Instituto Federal de Educação, Ciência e Tecnologia do Paraná
+ifap, Instituto Federal de Educação, Ciência e Tecnologia do Amapá
+ifac, Instituto Federal de Educação, Ciência e Tecnologia do Acre
+ifma, Instituto Federal de Educação, Ciência e Tecnologia do Maranhão
+ifrj, Instituto Federal de Educação, Ciência e Tecnologia do Rio de Janeiro
+ifpe, Instituto Federal de Educação, Ciência e  Tecnologia de Pernambuco
+ifba, Instituto Federal de Educação, Ciência e Tecnologia da Bahia
+ifes, Instituto Federal de Educação, Ciência e Tecnologia do Espírito Santo
+ifsc, Instituto Federal de Educação, Ciência e Tecnologia de Santa Catarina
+iffluminense, Instituto Federal de Educação, Ciência e Tecnologia do Fluminense
+ifsudestedeminas, Instituto Federal de Educação, Ciência e Tecnologia do Sudeste de Minas Gerais
+ifgoiano, Instituto Federal de Educação, Ciência e Tecnologia do Goiano
+iffarroupilha, Instituto Federal de Educação, Ciência e Tecnologia de Farroupilha
+ifgo, Instituto Federal de Educação, Ciência e Tecnologia de Goiás
