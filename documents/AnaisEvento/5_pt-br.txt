@@ -1,0 +1,49 @@
+Sistema de Monitoramento e Previsão Agrometeorológica: Agritempo
+Priscila P. Coltri1, Hilton S. Pinto2, Nelson J. Ferreira3, Marcio Ceccarelli4, Gustavo Coral5
+1- Engenheira Agrônoma, Mestre, Centro de Previsão de Tempo e Estudos Climáticos (CPTEC), Instituto Nacional de Pesquisas Espaciais
+(INPE), Cachoeira Paulista-SP, Fone: (12) 3186-8474, pcoltri@cptec.inpe.br
+2- Engenheiro Agrônomo, Professor Doutor, Centro de Pesquisas Meteorológicas Aplicadas à Agricultura (Cepagri), Universidade Estadual
+de Campinas (UNICAMP), Campinas, SP.
+3- Físico, Professor Doutor, Centro de Previsão de Tempo e Estudos Climáticos (CPTEC), Instituto Nacional de Pesquisas Espaciais (INPE),
+Cachoeira Paulista-SP
+4- Graduando em Jornalismo, Estagiário, Centro de Pesquisas Meteorológicas Aplicadas à Agricultura (Cepagri), Universidade Estadual de
+Campinas (UNICAMP), Campinas, SP.
+5- Engenheiro Agrônomo, Mestre, Centro de Pesquisas Meteorológicas Aplicadas à Agricultura (Cepagri), Universidade Estadual de
+Campinas (UNICAMP), Campinas, SP.
+
+Apresentado no XV Congresso Brasileiro de Agrometeorologia- 02 a 05 de julho de 2007 –
+Aracaju -SE
+RESUMO: A agricultura é um sistema que tem alta dependência das condições de tempo e
+clima. As condições meteorológicas afetam todas as etapas das atividades agrícolas, e
+situações climáticas adversas levam constantemente a graves impactos sociais e econômicos.
+É nesse sentindo que o monitoramento do clima e a previsão do tempo vêm ganhando cada
+vez mais espaço nas tomadas de decisões do agronegócio. Nesse contexto, foi criado pelo
+Centro de Pesquisas Meteorológicas e Climáticas Aplicadas à Agricultura
+(CEPAGRI/UNICAMP) e Embrapa Informática o “Agritempo” (www.agritempo.gov.br),
+que é um sistema de Monitoramento Agrometeorológico que permite aos usuários o acesso,
+via internet, às informações meteorológicas e agrometeorológicas de diversos municípios e
+estados brasileiros. O principal objetivo do presente trabalho é o de divulgar e domonstrar os
+principais produtos disponíveis da página.
+PALAVRAS CHAVE: Aplicações agrícolas, Monitoramento Climático, Previsão do Tempo.
+ABSTRACT: Agriculture activities are strongly sensitive to weather and climate. Therefore,
+climate and weather forecast information have been essential in planning agricultural
+activities. The CEPAGRI and EMBRAPA associated to other institutions created the site
+called “Agritempo”, that can be accessed in www.agritempo.gov.br . This site aims to offer
+comprehensive agrometeorological, weather and climate forecast information for agriculture.
+This work aims to describe some of the main products included in the site.
+.
+KEY WORDS: Agricultural application, Climatic monitoring, Weather forecast.
+INTRODUÇÃO: A agricultura é um sistema tecnológico artificial desenvolvido pelo homem
+com objetivo de obter alimentos, fibras e energia, e é, sem dúvida, o que mais depende do
+tempo e do clima quando comparado a qualquer outra atividade humana (Pereira et al. 2002).
+As condições meteorológicas afetam todas as etapas das atividades agrícolas e, adversidades
+no clima, levam constantemente a graves impactos sociais e a enorme prejuízos econômicos,
+muitas vezes difíceis de serem quantificados. Como as condições adversas do tempo são
+frequêntes e muitas vezes difíceis de serem quantificadas, a agricultura constitui-se em
+atividade de grande risco (Pereira et al, 2002). É nesse sentindo que o monitoramento do
+clima e a previsão do tempo vêm ganhando cada vez mais espaço nas tomadas de decisões do
+agronegócio. Nesse contexto, foi criado pelo Centro de Pesquisas Meteorológicas e
+Climáticas Aplicadas à Agricultura (CEPAGRI/UNICAMP) e Embrapa Informática o
+“Agritempo” (www.agritempo.gov.br). O Agritempo é um sistema de Monitoramento
+
+

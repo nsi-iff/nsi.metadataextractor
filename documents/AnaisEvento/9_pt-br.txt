@@ -1,0 +1,44 @@
+Desenvolvimento e manutenção de software ágil: Um novo processo
+Fernando Luiz de Carvalho e Silva (IFF) fernando.carvalho@iff.edu.br
+Diego da Silva Sales (UENF) diegosalesbr@gmail.com
+Rogério Atem de Carvalho (IFF) ratem@iff.edu.br
+
+Resumo: Neste artigo discute-se um processo de desenvolvimento de software ágil,
+alternativo ao processo tradicional. Apresenta-se inicialmente um resumo sobre o processo
+atual de desenvolvimento de software, sendo apresentadas suas características e problemas.
+Após, são demonstradas as características muito peculiares do novo processo, sob a óptica
+da engenharia de produção, suas vantagens e desvantagens, sendo ainda descritos em linhas
+gerais as técnicas ágeis Lean Software Development, Scrum e XP, apresentando um resumo
+de suas vantagens.
+Palavras-chave: Processo; Desenvolvimento de Software ; Agilidade.
+1. Introdução
+O cenário da economia atual vem apresentando características cada vez mais rápidas e
+dinâmicas. Como conseqüência, os mercados: fornecedor, concorrente e consumidor,
+expressam a volatilidade e dinâmica. Este fato exige que as empresas se tornem mais rápidas
+e apresentem uma capacidade de se adaptarem e de se reconfigurarem para acompanhar o
+mercado em constante alteração. As empresas precisam se adaptar às demandas de
+consumidores, ao mercado de fornecedores, às condições geradas pela concorrência e aos
+eventos emanados pelo Estado na figura de seus órgãos reguladores, fiscalizadores, etc.
+Assim, a reconfiguração interna das empresas, para que se tornem mais responsivas a estes
+estímulos (KETTUNEN, 2009), ou seja, responsivas às mudanças, é imprescindível. Neste
+sentido, projetos de desenvolvimento de software vem sendo cada vez mais demandados para
+auxiliar no processo de gerenciamento das empresas.
+Entretanto, segundo o Standish Group (2004), em seu relatório Chaos Report, os
+projetos de desenvolvimento de software têm apresentando uma taxa de sucesso muito baixa:
+a taxa de sucesso média tem ficado em torno de 28% entre os anos de 1994 e 2004.
+O objetivo deste trabalho é apresentar as vantagens do uso de técnicas ágeis para
+gerenciar a manutenção e o desenvolvimento de sistemas de informação por equipes
+pequenas.
+Serão discutidos alguns processos ágeis com suas características, vantagens e
+viabilidade para Pequenas Empresas. No tópico seguinte, será realizada uma revisão de
+modelo de Manufatura Enxuta e Manufatura Ágil, para introduzir os Processos Ágeis de
+Desenvolvimento de software. Por último será justificada a manutenção ou desenvolvimento
+de sistemas, utilizando técnicas ágeis.
+2. Sistemas de Informação
+A adoção de sistemas de informação normalmente impacta positivamente a empresa,
+trazendo tecnologia administrativa, mapeando boas práticas de trabalho implementadas em
+funcionalidades do software.
+
+1
+
+

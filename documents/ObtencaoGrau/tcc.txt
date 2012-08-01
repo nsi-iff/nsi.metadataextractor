@@ -1,0 +1,47 @@
+RESUMO
+Este projeto visa à aplicação de técnicas de Reutilização de Software para a construção de
+um framework para o Domínio de Horário Escolar. A Reutilização de software visa o
+desenvolvimento a partir de artefatos pré-existentes, levando à melhora da qualidade e
+produtividade no desenvolvimento. As técnicas empregadas englobam a Engenharia de
+Domínio (ED), envolvendo principalmente a Análise de Domínio (AD), e princípios de
+frameworks, como determinação de seus pontos configuráveis (i.e. hot spots). A ED
+envolve o desenvolvimento de software para um domínio ou família de aplicações, onde a
+AD representa a sua primeira etapa e os frameworks a arquitetura do domínio. A
+montagem de Horário Escolar representa uma atividade que é realizada por todas as
+instituições de ensino, onde cada instituição realiza esta atividade de forma particular,
+porém com muitos aspectos em comum. Daí a escolha desse domínio para aplicar a
+Reutilização de Software. O domínio de Horário Escolar deve conter as informações
+necessárias para o gerenciamento de horários de turmas, professores e ambientes de
+aprendizagem. Através da AD, visa-se determinar aspectos comuns, opcionais e variáveis
+das atividades que são realizadas neste domínio. Para esta análise, três coordenações de
+curso foram entrevistadas, permitindo, dessa forma, o desenvolvimento de artefatos
+reutilizáveis de software. É utilizado o ambiente Odyssey de reutilização de software,
+desenvolvido pela COPPE/UFRJ, para apoiar o processo proposto, pois o desenvolvimento
+voltado à reutilização envolve maior esforço do que aquele voltado a uma aplicação
+específica.
+Palavras-chaves: Engenharia de Domínio (ED), Horário Escolar, Análise de Domínio
+(AD), Frameworks, Variabilidades e Opcionalidades.
+
+ABSTRACT
+This project involves the application of Software Reuse techniques in order to build a
+framework for the School Hour Schedules Domain. The reuse of software aims the
+development from pre-existing artifacts, leading to improved quality and productivity in
+software development. The employed techniques include Domain Engineering (DE),
+mainly involving Domain Analysis (DA), and principles of frameworks, such as the
+determination of their configurable points (i.e. hot spots). The DE involves the
+development of software for a domain or family of applications, where the DA is the first
+step and the frameworks define the domain architecture. The elaboration of School Hour
+Schedules is an activity that is performed by all educational institutions, where each
+institution performs this activity in a particular way, but with many points in common.
+Therefore this domain was chosen to implement the software reuse. The School Hour
+Schedules domain must contain the necessary information for managing schedules of
+classes, teachers and learning environments. Through the DA, it is possible to determine
+common, optional and variable aspects of activities that are performed in this domain. For
+this analysis, three course coordinations were interviewed, allowing thus the development
+of reusable software artifacts. The software reuse environment Odyssey developed at
+COPPE / UFRJ, is used to support the proposed process, since the development for reuse
+requires a greater effort than the one involving a specific application.
+Keywords: Domain Engineering (DE), School Hour Schedules, Domain Analysis (DA),
+Frameworks, Variabilities and Optionalities.
+
+
