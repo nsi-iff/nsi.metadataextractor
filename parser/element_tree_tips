@@ -1,0 +1,37 @@
+#entra na chave OnePage, metadata1 e percorre suas chaves interiores imprimindo todos textos.
+
+In [75]: for elem in doc.iterfind('OnePage/metadata1'):
+             print elem.attrib
+             for elem in elem.getchildren():
+                 print elem.tag, elem.text
+   ....:         
+{'id': 'instituicao'}
+prefix UNIVERSIDADE,INSTITUTO
+
+
+
+
+In [76]: for elem in doc.iterfind('OnePage/metadata2'):
+             print elem.attrib
+             for elem in elem.getchildren():
+                 print elem.tag, elem.text
+   ....:         
+{'id': 'campus'}
+prefix CAMPUS,CAMPI
+
+
+In [77]: for elem in doc.iterfind('OnePage/metadata3'):
+             print elem.attrib
+             for elem in elem.getchildren():
+                 print elem.tag, elem.text
+
+
+In [123]: for elem in doc.iterfind('OnePage/metadata'):
+             print elem.attrib['id']
+             for sub_elem in elem.getchildren():
+                 dict.update( {sub_elem.tag:sub_elem.text})
+   .....:         
+instituicao
+campus
+grau
+título
