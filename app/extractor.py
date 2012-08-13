@@ -26,7 +26,7 @@ class Preparator(object):
 
 class TccExtractor(object):
 
-    def __init__(self, doc_type):
+    def __init__(self, doc_name):
         self.preparator = Preparator('obtencaograu', doc_name)
         self.parse = Parser('tcc.xml')
         self.tcc_metadata_hash = self.parse.onepage_metadata.update(self.parse.variouspages_metadata)
@@ -42,9 +42,12 @@ class TccExtractor(object):
         #    start_position += 1
         for line in doc:
             corpus_common = bool(set(line.lower().split()).intersection(self.name_corpus))
-            if corpus_common: self.authors.append(line) elif: line == sucessor: break
+            if corpus_common: 
+                self.authors.append(line) 
+            elif line == sucessor: break
         if not self.authors:
             ### another method to extract authors
             return "authors not found.."
-        else: return self.authors
+        else: 
+            return self.authors
 

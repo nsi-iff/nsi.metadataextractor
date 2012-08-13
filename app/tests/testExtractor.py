@@ -9,7 +9,7 @@ if not path in sys.path:
 import unittest
 from should_dsl import should, should_not
 from xml_parser import Parser
-from extractor import Preparator
+from extractor import Preparator, TccExtractor
 #########################################
 
 class TestPreparation(unittest.TestCase):
