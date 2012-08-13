@@ -1,0 +1,53 @@
+PADRONIZAÇÃO DE POLÍTICAS DE SUBSTITUIÇÃO PARA A FERRAMENTA
+ToGAI
+Dalessandro Soares Vianna1
+
+dalessandro@pq.cnpq.br
+Fábio Duncan de Souza2
+fduncan@iff.edu.br
+Amaro José de Souza Neto2
+
+amaro.neto@gmail.com
+Rodrigo Alessandro Gonçalves Lobo2
+
+rodrigoaglobo@gmail.com
+Diego Rangel da Silva2
+
+diegords@gmail.com
+Marcilene de Fátima Dianin Vianna3
+marcilenedianin@gmail.com
+1. Universidade Federal Fluminense, Pólo Universitário Rio das Ostras – UFF/PURO
+Rua Recife, s/n, Jardim Bela Vista, Rio das Ostras, RJ 28890-000.
+2. Universidade Candido Mendes – UCAM-Campos
+Rua Anita Pessanha, 100, Parque São Caetano, Campos dos Goytacazes, RJ 28040-320.
+
+3. Universidade Estadual Norte Fluminense Darcy Ribeiro
+Avenida Alberto Lamego, 2000, Parque Califórnia, Campos dos Goytcazes, RJ 28013-600.
+RESUMO
+Uma das metaheurísticas mais utilizadas para solucionar problemas de otimização combinatória são os
+algoritmos genéticos (AGs). A ferramenta ToGAI foi desenvolvida para facilitar a implementação de
+AGs, facilitando que neste sejam testados diversas políticas de seleção de indivíduos, evolução da
+população e critérios de parada com custo operacional praticamente nulo. O objetivo deste trabalho é
+incrementar a ferramenta ToGAI, permitindo que diferentes políticas de substituição de indivíduos
+possam ser também avaliadas com pouco esforço. Políticas de substituição de indivíduos representam
+estratégias de como atualizar a população após a geração de novos indivíduos pelo operador de
+cruzamento. Foram adicionadas cinco políticas de substituição de indivíduos a ferramenta. Esta nova
+versão da ToGAI foi avaliada com dois AGs disponíveis na literatura e que foram desenvolvidos com
+a ferramenta ToGAI. Os experimentos realizados mostraram que a variação da política de substituição
+de indivíduos pode melhorar sensivelmente os resultados finais do AG.
+PALAVRAS CHAVES. Algoritmos Genéticos. Políticas de Substituição de indivíduos. ToGAI.
+
+ABSTRACT
+One of the most widely used metaheuristics for solving combinatorial optimization problems are
+genetic algorithms (GAs). ToGAI was developed to facilitate the implementation of GAs, facilitating
+that it be tested various policies of individuals selection, of population evolution and stop criteria with
+almost zero operating cost. The objective is to improve the ToGAI tool, allowing that different
+individuals replacement policies can also be evaluated with little effort. Individuals replacement
+policies representing strategies of how to update the population following the generation of new
+individuals by crossover operator. It was added five individuals replacement policies to ToGAI. This
+new ToGAI version was evaluated with two GAs found in literature and that were developed using
+ToGAI. Our experiments showed that the variation of individuals replacement policy can significantly
+improve the final results of the AG.
+KEYWORDS. Genetic algorithms. Individuals replacement policies. ToGAI.
+
+

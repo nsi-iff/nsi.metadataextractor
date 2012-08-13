@@ -1,0 +1,40 @@
+78
+
+BANCO DE RECURSOS HUMANOS PARA PESSOAS COM NECESSIDADES
+ESPECIAIS
+L. S. SCHWOCHOW1; K. BISSOLOTTI2; A. P. SONZA3; M. C. ROSITO4
+
+RESUMO: De acordo com o censo do IBGE de 2000, existem no Brasil aproximadamente
+24,5 milhões de pessoas com algum tipo de deficiência. Devido a esse elevado número e à
+necessidade de empregabilidade de tais sujeitos, foi criada a Lei de Cotas (Lei 8.213/91),
+obrigando empresas com mais de cem funcionários empregarem pessoas com deficiência. Em
+vista deste cenário, objetivando auxiliar no respeito a esta exigência legal, realizouse a uma
+pesquisa sobre os requisitos necessários para o desenvolvimento de uma solução
+computacional que facilite o contato entre profissionais com necessidades especiais e as
+empresas contratantes. Por meio dessa solução, cada profissional poderá consultar por
+empresas cadastradas no sistema, podendo visualizar se existem vagas de trabalho para seu
+perfil. Já as empresas poderão consultar por profissionais que possuam algum tipo de
+deficiência. Assim, esta pesquisa tem como meta subsidiar as ações relacionadas à
+empregabilidade de pessoas com deficiência do Brasil.
+PALAVRAS-CHAVE: acessibilidade, profissionais, empregos, cotas.
+
+1. INTRODUÇÃO
+De acordo com o censo de 2000, do Instituto Brasileiro de Geografia e Estatística
+(IBGE 2000), existem no Brasil aproximadamente 24,5 milhões de pessoas com algum tipo
+de deficiência. Devido a este elevado número e à necessidade de empregabilidade de tais
+sujeitos, ocorreu a criação da lei de cotas - Lei 8213/91. A referida Lei estipula números
+diferenciados de cotas, em empresas privadas, proporcionais ao número de funcionários.
+Assim, toda empresa que possui mais de cem funcionários está obrigada a destinar parte de
+suas vagas para trabalhadores deficientes.
+
+1
+
+Bolsista do Projeto de Acessibilidade Virtual - IFRS,Campus Bento Gonçalves. Email: lucas.schwochow@bento.ifrs.edu.br
+Bolsista do Projeto de Acessibilidade Virtual - IFRS,Campus Bento Gonçalves. Email: katielen.bissolotti@bento.ifrs.edu.br
+3
+Docente – IFRS, Campus Bento Gonçalves. Email: andrea.sonza@bento.ifrs.edu.br
+4
+Docente – IFRS, Campus Bento Gonçalves. Email: mauricio.rosito@bento.ifrs.edu.br
+2
+
+

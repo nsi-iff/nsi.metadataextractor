@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+    <OnePage page = "2">
+        <metadata id = "author">
+            <position type = "general">0</position>
+            <antecessor type = "word">\n</antecessor>
+            <sucessor type = "word">\n</sucessor>
+        </metadata>
+        <metadata id = "institution">
+            <prefix type = "word">UNIVERSIDADE,INSTITUTO</prefix>
+        </metadata>
+        <metadata id = "campus">
+            <prefix type = "palavra">CAMPUS,CAMPI</prefix>
+        </metadata>
+        <metadata id = "grade">
+            <graduation type = "palavra">GRADUAÇÃO,CURSO SUPERIOR,BACHARELADO,LICENCIATURA,TECNÓLOGO</graduation>
+            <spec type = "palavra">PÓS-GRADUAÇÃO,LATO SENSU,ESPECIALIZAÇÃO,ESPECIALISTA,MBA</spec>
+            <master_degree type = "palavra">MESTRADO,MESTRE</master_degree>
+            <doctoral type = "palavra">DOUTORADO,DOUTOR</doctoral>
+            <postdoctoral type = "palavra">PÓS-DOUTORADO,PÓS DOUTORADO</postdoctoral>    
+        </metadata>
+        <metadata id = "title">
+            <prefix type = "empty line">\n</prefix>
+        </metadata>
+    </OnePage>
+    <VariousPages startpage = "1" endpage = "10">
+        <metadata id = "abstract">
+            <position type = "general">1</position>
+            <prefix type = "word">RESUMO\n</prefix>
+        </metadata>
+    </VariousPages>
+</root>
+        

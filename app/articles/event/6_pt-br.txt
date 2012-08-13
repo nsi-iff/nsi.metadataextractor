@@ -1,0 +1,41 @@
+II Congresso de Pesquisa e Inovação da Rede Norte Nordeste de Educação Tecnológica
+João Pessoa - PB - 2007
+
+ORCA: ESTUDO DE CASO EM LINUX UBUNTU
+Agebson Rocha FAÇANHA(1); Emanoel Tadeu da Silva FREITAS(2); Cidcley Teixeira de
+SOUZA(3); Ana Karina Morais LIRA(4);
+(1) Centro Federal de Educação Tecnológica do Ceará
+Av. Treze de Maio, 1081 - Benfica, Fortaleza-CE. CEP 60040-531
+E-mail: agebson@yahoo.com.br
+(2) Universidade Federal do Ceará
+Av. Mister Hull, s/n - Pici – Bloco 910 - Fortaleza-CE - CEP 60455-760
+E-mail: emanoeltadeu@gmail.com
+(3) Centro Federal de Educação Tecnológica do Ceará
+Av. Treze de Maio, 1081 - Benfica, Fortaleza-CE. CEP 60040-531
+E-mail: cidcley@gmail.com
+(4) Faculdade de Educação da Universidade Federal do Ceará (FACED-UFC)
+Rua Waldery Uchoa, 1 – Benfica, Fortaleza-CE
+E-mail: karina@ufc.br
+
+RESUMO
+Uma das grandes dificuldades de quem possui necessidades especiais é a inclusão digital, sendo os
+deficientes visuais os mais prejudicados, devido à inexistência de mecanismos de inclusão digital voltados
+para sua deficiência específica. Eles contam com uma diversidade de softwares adaptados que realizam uma
+interface sonora com o sistema operacional Windows, contudo, quando desejam migrar para Linux, tem
+dificuldades em encontrar ferramentas compatíveis para a manutenção da usabilidade com o novo sistema.
+Essa é ainda uma barreira para a migração do usuário deficiente visual brasileiro para uma plataforma não
+proprietária. Como solução para esse problema, este artigo apresenta uma alternativa que efetivará essa
+migração, habilitando usuários cegos para realização de tarefas como edição de texto, acesso à internet,
+gerenciamento de arquivos, entre outras. Após período de pesquisa e levantamento bibliográfico sobre o
+problema proposto, foi constatado que a distribuição Linux Ubuntu vem atraindo diversos deficientes
+visuais brasileiros para a utilização desse sistema. Tal distribuição utiliza um leitor de tela denominado
+Gnome-Orca, uma ferramenta muito eficiente para pessoas com deficiência visual, pois utiliza várias
+combinações de síntese de voz, braile e ampliação de tela. A partir dessas informações, aprofundamos nosso
+conhecimento sobre o Gnome-Orca, por acreditarmos que ele é o diferencial na solução experimental na
+qual utilizamos a distribuição Linux Ubuntu, a emulação do Sistema DOSVOX e o leitor de tela Orca. Logo,
+a partir desse estudo de caso, analisamos como o Orca melhora a utilização dos recursos tecnológicos e
+contribui no processo de inclusão digital das pessoas com deficiência visual.
+
+Palavras-chave: Inclusão Digital, Acessibilidade, Tecnologia Assistiva, Software Livre e Leitor de telas.
+
+

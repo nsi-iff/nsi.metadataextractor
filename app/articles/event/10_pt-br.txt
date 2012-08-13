@@ -1,0 +1,65 @@
+I Congresso de Pesquisa e Inovação da Rede Norte Nordeste de Educação Tecnológica
+Natal-RN - 2006.
+
+RSFSURCA – UM PROTOCOLO DE REDE DE SENSORES SEM FIO
+PARA SOLUÇÃO APLICADA AO SISTEMA ELÉTRICO
+A.L.C. Araújo
+Instituto de Telemática – CEFET-CE
+Av. Treze de Maio, 1081 Benfica CEP 60.040-531 Fortaleza-CE
+E-mail: andreluiz@cefetce.br
+
+H.N. Onofre
+Instituto de Telemática – CEFET-CE
+Av. Treze de Maio, 1081 Benfica CEP 60.040-531 Fortaleza-CE
+E-mail: herbert@itti.cefetce.br
+
+P.R.C. Araújo
+Instituto de Telemática – CEFET-CE
+Av. Treze de Maio, 1081 Benfica CEP 60.040-531 Fortaleza-CE
+E-mail: pregis@cefetce.br
+
+A. R. Façanha
+Instituto de Telemática – CEFET-CE
+Av. Treze de Maio, 1081 Benfica CEP 60.040-531 Fortaleza-CE
+E-mail: agebson@itti.cefetce.br
+
+V. Castro
+COELCE
+Av. Treze de Maio, 1081 Benfica CEP 60.040-531 Fortaleza-CE
+E-mail: vcastro@coelce.com.br
+
+RESUMO
+A implantação de sistemas de telemetria para o setor elétrico encontra dificuldade nos custos elevados dos
+equipamentos de comunicação de dados utilizados atualmente. A utilização de equipamentos de rádios de baixa
+potência, com custos reduzidos em relação aos sistemas de rádios e equipamentos com tecnologia celular e satélite,
+permitiria a utilização da telemetria em maior escala. Entretanto, devido as características inerentes dos rádios de
+baixa potência, como o curto alcance de suas comunicações, só permite a sua utilização quando em uma
+configuração de redes de sensores sem fio (RSSF). As RSSF são estruturas computacionais que apresentam
+inúmeros nós sensores. Os nós sensores são responsáveis por monitorar grandezas físicas em uma gama de
+aplicações. Este trabalho implementa um protocolo de roteamento para uma rede de sensores sem fio para permitir a
+gerência de elementos sensores para o setor elétrico. Inicialmente estudos de diversos protocolos de roteamento
+para RSSF foram realizados e levantados requisitos específicos de cada um. A identificação dos requisitos da RSSF
+aplicado aos sensores da rede elétrica em questão foi comparada com os requisitos dos protocolos estudados. Os
+protocolos com a utilização de mecanismos de difusão direta e roteamento por regeneração ativa foram
+implementados com modificações nos headers dos pacotes para melhor utilização da banda passante dos elementos
+de rádio utilizados. Os protocolos foram implementados em linguagem C e implantados em um sistema real. O
+protocolo desenvolvido se mostrou eficiente para as grandezas investigadas pelos sensores escolhidos. Parâmetros
+de transmissão e qualidade revelam a eficiência do protocolo proposto inicialmente bem como sua aplicabilidade.
+Este trabalho foi desenvolvido como parte de um projeto de pesquisa, desenvolvimento e inovação em parceria com
+a COELCE para um sistema de supervisão para roubo de cabos elétricos.
+
+PALAVRAS-CHAVE:
+
+RSSF;
+
+Telemetria;
+
+Sensores;
+
+Rádio;
+
+Sistema
+
+Elétrico
+
+
