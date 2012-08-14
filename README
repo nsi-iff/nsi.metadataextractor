@@ -1,0 +1,3 @@
+Running tests on ~/nsi.metadataextractor:
+
+  - make run_unit_tests
