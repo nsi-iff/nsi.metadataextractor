@@ -1,29 +1,27 @@
 #coding: utf-8
 import sys
-from os import environ, path, listdir, getcwd
-path = (environ['HOME'] + '/nsi.metadataextractor/app/')
-if not path in sys.path:
-    sys.path.insert(1, path)
+from os import listdir
+from os.path import abspath, dirname, join
 
-#########################################
 import unittest
 from should_dsl import should, should_not
-from xml_parser import Parser
-from extractor import Preparator, TccExtractor
-#########################################
+from nsi.metadataextractor.xml_parser import Parser
+from nsi.metadataextractor.extractor import Preparator, TccExtractor
+
+ROOT_PATH = abspath(dirname(__file__))
+TEMPLATES_PATH = join(ROOT_PATH, '..', 'templates')
 
 class TestPreparation(unittest.TestCase):
 
 	def setUp(self):
-		self.parse = Parser('tcc.xml')
+		self.parse = Parser(join(TEMPLATES_PATH, 'tcc.xml'))
 		self.tipo = 'obtencaograu'
 		self.nome = '1'
 		self.preparator = Preparator(self.tipo, self.nome)
 		
-	
 	def test_pdf_document_exists(self):
 		self.obtencaograu_pdf_document = self.nome + '.pdf'
-		self.obtencaograu_pdf_documents = listdir('app/articles/obtencaograu/')
+		self.obtencaograu_pdf_documents = listdir(join(ROOT_PATH, '..', 'articles', 'obtencaograu'))
 		self.obtencaograu_pdf_document |should| be_into (self.obtencaograu_pdf_documents)
 	
 	def test_obtencao_grau_document_pdf_to_txt_convertion(self):
@@ -31,7 +29,7 @@ class TestPreparation(unittest.TestCase):
 		one_page_hash = self.parse.onepage_metadata
 		page = one_page_hash['page']
 		self.preparator.convert_document(page, page)
-		self.obtecaograu_converted_documents = listdir('app/articles/obtencaograu/converted/')
+		self.obtecaograu_converted_documents = listdir(join(ROOT_PATH, '..', 'articles', 'obtencaograu', 'converted'))
 		self.converted_document |should| be_into (self.obtecaograu_converted_documents)
 
 	def test_text_should_be_a_list(self):
@@ -50,6 +48,8 @@ class TestTccExtractor(unittest.TestCase):
 			"RAFAEL LEITE DE FREITAS"])
 
  
+if __name__ == '__main__':
+	unittest.main()
 
 	
 

@@ -1,12 +1,15 @@
 #coding: utf-8
-import xml.etree.cElementTree as ET
-from os import path
+import lxml.etree as ET
+from os.path import abspath, dirname, join
+
+ROOT_PATH = abspath(dirname(__file__))
+TEMPLATE_PATH = join(ROOT_PATH, 'templates')
 
 class Parser(object):
 
     def __init__(self, template_name):
         self.template_name = template_name
-        self.file_path = path.join(path.abspath('app/templates'), self.template_name)
+        self.file_path = join(TEMPLATE_PATH, self.template_name)
         self.doc = ET.ElementTree(file = self.file_path)
         
     @property

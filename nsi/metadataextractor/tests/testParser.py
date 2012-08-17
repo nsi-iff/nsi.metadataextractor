@@ -1,22 +1,19 @@
 #coding: utf-8
-import sys
-from os import environ, path
-path = (environ['HOME'] + '/nsi.metadataextractor/app')
-if not path in sys.path:
-    sys.path.insert(1, path)
-
-#########################################
-from xml_parser import Parser
+from os import listdir
+from os.path import abspath, dirname, join
+from nsi.metadataextractor.xml_parser import Parser
 import unittest
 from should_dsl import should, should_not
-import xml.etree.cElementTree as ET
-#########################################
+import lxml.etree as ET
 
+
+ROOT_PATH = abspath(dirname(__file__))
+TEMPLATE_PATH = join(ROOT_PATH, '..', 'templates')
 
 class TestParser(unittest.TestCase):
 
     def setUp(self):
-        self.tccParse = Parser('tcc.xml')
+        self.tccParse = Parser(join(TEMPLATE_PATH, 'tcc.xml'))
         self.eventannalsParse = Parser('anais_evento.xml')
 
     def test_parser_has_a_xml_directory(self):
