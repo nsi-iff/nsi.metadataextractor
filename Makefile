@@ -1,4 +1,5 @@
 PYTHON=python
+SPECLOUD=specloud
 
 all: install run_unit_test
 
@@ -9,6 +10,6 @@ dev:
 	${PYTHON} setup.py develop
 
 run_unit_test:
-	${PYTHON} nsi/metadataextractor/tests/testParser.py
-	${PYTHON} nsi/metadataextractor/tests/testExtractor.py
+	${SPECLOUD} nsi/metadataextractor/tests/testParser.py
+	${SPECLOUD} nsi/metadataextractor/tests/testExtractor.py
 
