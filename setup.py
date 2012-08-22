@@ -5,7 +5,7 @@ version = '0.0.1'
 
 setup(name='nsi.metadataextractor',
       version=version,
-      description="",
+      description="A template-based metadata extractor.",
       long_description="""\
 """,
       classifiers=[], # Get strings from http://pypi.python.org/pypi?%3Aaction=list_classifiers

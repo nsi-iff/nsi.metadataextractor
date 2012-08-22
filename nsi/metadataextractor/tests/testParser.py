@@ -4,7 +4,6 @@ from os.path import abspath, dirname, join
 from nsi.metadataextractor.xml_parser import Parser
 import unittest
 from should_dsl import should, should_not
-import lxml.etree as ET
 
 
 ROOT_PATH = abspath(dirname(__file__))
@@ -14,7 +13,7 @@ class TestParser(unittest.TestCase):
 
     def setUp(self):
         self.tccParse = Parser(join(TEMPLATE_PATH, 'tcc.xml'))
-        self.eventannalsParse = Parser('anais_evento.xml')
+        self.eventannalsParse = Parser(join(TEMPLATE_PATH, 'anais_evento.xml'))
 
     def test_parser_has_a_xml_directory(self):
         self.tccParse.file_path |should| be_like(r'.*.xml')

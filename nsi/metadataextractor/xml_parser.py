@@ -1,5 +1,5 @@
 #coding: utf-8
-import lxml.etree as ET
+from lxml.etree import ElementTree
 from os.path import abspath, dirname, join
 
 ROOT_PATH = abspath(dirname(__file__))
@@ -10,7 +10,7 @@ class Parser(object):
     def __init__(self, template_name):
         self.template_name = template_name
         self.file_path = join(TEMPLATE_PATH, self.template_name)
-        self.doc = ET.ElementTree(file = self.file_path)
+        self.doc = ElementTree(file = self.file_path)
         
     @property
     def onepage_metadata(self):
