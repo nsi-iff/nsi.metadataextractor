@@ -1,0 +1,39 @@
+de,Tocantins
+do,Mato Grosso
+do,Pará
+da,Paraíba
+de,Sergipe
+do,Ceará
+de,Roraima
+de,Alagoas
+,Catarinense
+de,Santa Catarina
+do,Sul de Minas
+de,São Paulo
+do,Triângulo Mineiro
+de,Minas Gerais
+do,Sertão Pernambucano
+do,Mato Grosso do Sul
+,Baiano
+da,Bahia
+de,Rondonia
+do,Rio Grande do Sul
+do,Rio Grande do Norte
+de,Brasília
+do,Norte de Minas
+do,Piauí
+de,Amazonas
+do,Paraná
+de,Amapá
+do,Acre
+de,Maranhão
+do,Rio de Janeiro
+de,Pernambuco
+da,Bahia
+do,Espírito Santo
+,Fluminense
+do,Sudeste de Minas Gerais
+,Goiano
+de,Goiás
+de,Farroupilha
+de,Goiás
