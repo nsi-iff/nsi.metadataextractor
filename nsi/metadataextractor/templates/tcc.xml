@@ -6,10 +6,10 @@
             <sucessor type = "word">\n</sucessor>
         </metadata>
         <metadata id = "institution">
-            <prefix type = "word">UNIVERSIDADE,INSTITUTO</prefix>
+            <antecessor type = "word">universidade,instituto</antecessor>
         </metadata>
         <metadata id = "campus">
-            <prefix type = "palavra">CAMPUS,CAMPI</prefix>
+            <antecessor type = "palavra">CAMPUS,CAMPI</antecessor>
         </metadata>
         <metadata id = "grade">
             <graduation type = "palavra">GRADUAÇÃO,CURSO SUPERIOR,BACHARELADO,LICENCIATURA,TECNÓLOGO</graduation>
@@ -26,7 +26,7 @@
     <VariousPages startpage = "1" endpage = "10">
         <metadata id = "abstract">
             <position type = "general">1</position>
-            <prefix type = "word">RESUMO\n</prefix>
+            <antecessor type = "word">RESUMO\n</antecessor>
         </metadata>
     </VariousPages>
 </root>
