@@ -3,7 +3,6 @@
     <OnePage page = "2">
         <metadata id = "author">
             <position type = "general">0</position>
-            <antecessor type = "word">\n</antecessor>
             <sucessor type = "word">\n</sucessor>
         </metadata>
         <metadata id = "institution">
@@ -20,7 +19,8 @@
             <postdoctoral type = "palavra">PÓS-DOUTORADO,PÓS DOUTORADO</postdoctoral>    
         </metadata>
         <metadata id = "title">
-            <prefix type = "empty line">\n</prefix>
+            <antecessor type = "empty line">\n</antecessor>
+            <sucessor type = "empty line">\n</sucessor>
         </metadata>
     </OnePage>
     <VariousPages startpage = "1" endpage = "10">
