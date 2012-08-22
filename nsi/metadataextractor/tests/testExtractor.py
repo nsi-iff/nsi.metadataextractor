@@ -52,7 +52,7 @@ class TestTccExtractor(unittest.TestCase):
 	def setUp(self):
 		self.extractor = TccExtractor('1')
 
-	def test_has_one_or_more_author_type_metadata(self):
+	def test_has_one_or_more_author_type_metadata_on_a_list(self):
 		len(self.extractor.author_metadata()) |should| be_greater_than_or_equal_to(3)
 
 	def test_has_title_type_metadata(self):
