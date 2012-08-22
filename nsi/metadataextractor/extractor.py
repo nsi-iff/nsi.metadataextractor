@@ -37,8 +37,8 @@ class TccExtractor(object):
         self.parse = Parser(join(ROOT, 'templates', 'tcc.xml'))
         self.onepage_metadata = self.parse.onepage_metadata
         self.variouspages_metadata = self.parse.variouspages_metadata
-        self.page = self.onepage_metadata['page']
         self.pages = self.parse.variouspages_metadata['pages']
+        self.page = self.onepage_metadata['page']
         self.onepage_doc = self.preparator.convert_document(self.page, self.page)
         self.vairouspages_doc = self.preparator.convert_document(self.pages[0], self.pages[1])
 
@@ -46,16 +46,36 @@ class TccExtractor(object):
     def author_metadata(self):
         self.authors = []
         name_corpus = self.preparator.parse_corpus('names')
-        sucessor = self.onepage_metadata['author_sucessor']
-        for line_index in range(len(self.onepage_doc) + 1):
-            line = self.onepage_doc[line_index].lower().split()
-            corpus_common = bool(set(line).intersection(name_corpus))
+        sucessor = self.onepage_metadata['author_sucessor'][0]
+        for line in self.onepage_doc:
+            line_mod = line.lower().split()
+            corpus_common = bool(set(line_mod).intersection(name_corpus))
             if corpus_common:
-                self.authors.append(self.onepage_doc[line_index])
-            elif self.onepage_doc[line_index] == sucessor[0]:
-                break
+                self.authors.append(line)
         if not self.authors:
-            ### another method to extract authors
-            return 'authors not found..'
-        else: 
-            return self.authors
+            line = 0
+            while self.onepage_doc[line] != sucessor:
+                self.authors.append(self.onepage_doc[line])
+                line += 1
+        return self.authors
+
+    def title_metadata(self):
+        i = 0
+        self.title = ''
+        title_antecessor = self.onepage_metadata['title_antecessor'][0]
+        title_sucessor = self.onepage_metadata['title_sucessor'][0]
+        first_line = self.onepage_doc.index(title_antecessor) + 1
+        doc_range = len(self.onepage_doc)
+        for title_type_metadata_index in range(first_line, doc_range):
+            if self.onepage_doc[title_type_metadata_index] != title_sucessor:
+                self.title += self.onepage_doc[title_type_metadata_index].replace('\n', ' ')
+            else: break
+        return self.title
+
+    #def abstract_metadata(self):
+
+             
+
+
+
+
