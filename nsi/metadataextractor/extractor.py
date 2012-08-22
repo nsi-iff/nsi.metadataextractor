@@ -29,6 +29,12 @@ class Preparator(object):
             self.solid_corpus.append(item.strip())
         return self.solid_corpus
 
+    def clean_document_list(self, document_list):
+        self.bigstring = ''
+        for line in document_list:
+            low_line = line.decode('utf-8').lower().encode('utf-8')
+            self.bigstring += low_line.replace('\n', ' ').replace(',', '').replace('.', '')
+        return self.bigstring.split()
 
 class TccExtractor(object):
 
@@ -72,7 +78,28 @@ class TccExtractor(object):
             else: break
         return self.title
 
-    #def abstract_metadata(self):
+    def institution_metadata(self):
+        self.institution_names = []
+        self.institution_prepositions = []
+        self.institution = 'Instituto Federal de Educação Ciência e Tecnologia '
+        clean_document_list = self.preparator.clean_document_list(self.onepage_doc)
+        institution_list_with_preposition = self.preparator.parse_corpus('institution')
+        for item in institution_list_with_preposition:
+            item = item.split(',')
+            self.institution_prepositions.append(item[0])
+            self.institution_names.append(item[1].decode('utf-8').lower().encode('utf-8'))
+        for name in self.institution_names:
+            name_mod = name.split()
+            if list(set(name_mod).intersection(clean_document_list)) == name_mod:
+                preposition = self.institution_prepositions[self.institution_names.index(name)]
+                if preposition:
+                    self.institution = self.institution + preposition + ' ' + name.capitalize()
+                    break
+                else:
+                    self.institution += name.capitalize()
+                    break
+        return self.institution
+        
 
              
 
