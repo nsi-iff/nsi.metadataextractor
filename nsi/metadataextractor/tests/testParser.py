@@ -25,7 +25,6 @@ class TestParser(unittest.TestCase):
         metadata_hash = self.tccParse.onepage_metadata
         
         metadata_hash.get("author_position") |should| equal_to (0)
-        metadata_hash.get("author_antecessor") |should| equal_to (['\n'])
         metadata_hash.get("author_sucessor") |should| equal_to (['\n'])
         metadata_hash.get("campus_prefix") |should| equal_to (['CAMPUS', 'CAMPI'])
         metadata_hash.get("grade_doctoral") |should| equal_to (['DOUTORADO','DOUTOR'])
@@ -35,7 +34,8 @@ class TestParser(unittest.TestCase):
         metadata_hash.get("grade_spec") |should| equal_to (['PÓS-GRADUAÇÃO', 'LATO SENSU', 'ESPECIALIZAÇÃO', 'ESPECIALISTA', 'MBA'])
         metadata_hash.get("institution_prefix") |should| equal_to (['UNIVERSIDADE', 'INSTITUTO'])
         metadata_hash.get("page") |should| equal_to (2)
-        metadata_hash.get("title_prefix") |should| equal_to (['\n'])
+        metadata_hash.get("title_antecessor") |should| equal_to (['\n'])
+        metadata_hash.get("title_sucessor") |should| equal_to (['\n'])
 
     def test_variouspages_metadata_has_a_valid_hash(self):
         type(self.tccParse.onepage_metadata) |should| equal_to(dict)
