@@ -9,6 +9,7 @@ de,Alagoas
 ,Catarinense
 de,Santa Catarina
 do,Sul de Minas
+do,Sul de Minas Gerais
 de,São Paulo
 do,Triângulo Mineiro
 de,Minas Gerais
