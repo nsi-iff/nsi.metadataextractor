@@ -1,11 +1,0 @@
-DALINE GONÇALVES MORAES DE SOUZA KAROLYNE ALMEIDA SIQUEIRA RAFAEL LEITE DE FREITAS
-
-INTEGRAÇÃO DA GERÊNCIA DE REQUISITOS COM A PLATAFORMA REDMINE
-
-Monografia apresentada ao Instituto Federal de Educação Ciência e Tecnologia Fluminense Campus Campos-Centro como requisito parcial para a conclusão do Curso Superior de Tecnologia em Desenvolvimento de Software.
-
-Orientadora: Aline Pires Vieira de Vasconcelos
-
-Campos dos Goytacazes/RJ 2010
-
-
