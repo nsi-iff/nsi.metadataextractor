@@ -23,10 +23,10 @@
             <sucessor type = "empty line">\n</sucessor>
         </metadata>
     </OnePage>
-    <VariousPages startpage = "1" endpage = "10">
+    <VariousPages startpage = "4" endpage = "10">
         <metadata id = "abstract">
-            <position type = "general">1</position>
             <antecessor type = "word">RESUMO\n</antecessor>
+            <sucessor type = "word">\n</sucessor>
         </metadata>
     </VariousPages>
 </root>
