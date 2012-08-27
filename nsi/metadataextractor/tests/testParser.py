@@ -43,9 +43,9 @@ class TestParser(unittest.TestCase):
     def test_variouspages_metadata_hash_has_valid_keys_and_values(self):
         metadata_hash = self.tccParse.variouspages_metadata
 
-        metadata_hash.get("abstract_position") |should| equal_to (1)
         metadata_hash.get("abstract_antecessor") |should| equal_to (['RESUMO\n'])
-        metadata_hash.get("pages") |should| equal_to ([1,10])
+        metadata_hash.get("abstract_sucessor") |should| equal_to (['\n'])
+        metadata_hash.get("pages") |should| equal_to ([4, 10])
 
 
 if __name__ == '__main__':

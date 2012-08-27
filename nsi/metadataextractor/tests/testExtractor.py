@@ -38,19 +38,13 @@ class TestPreparation(unittest.TestCase):
 	def test_list_cleaner_cleans_document_lists(self):
 		page = self.parse.onepage_metadata['page']
 		document_list = self.preparator.convert_document(page, page)
-		self.preparator.clean_document_list(document_list) |should| equal_to(['daline', 'gon\xc3\xa7alves', 
-			'moraes', 'de', 'souza', 'karolyne', 'almeida', 'siqueira', 'rafael', 'leite', 'de', 'freitas', 
-			'integra\xc3\xa7\xc3\xa3o', 'da', 'ger\xc3\xaancia', 'de', 'requisitos', 'com', 'a', 'plataforma', 
-			'redmine', 'monografia', 'apresentada', 'ao', 'instituto', 'federal', 'de', 'educa\xc3\xa7\xc3\xa3o', 
-			'ci\xc3\xaancia', 'e', 'tecnologia', 'fluminense', 'campus', 'campos-centro', 'como', 'requisito', 
-			'parcial', 'para', 'a', 'conclus\xc3\xa3o', 'do', 'curso', 'superior', 'de', 'tecnologia', 'em', 
-			'desenvolvimento', 'de', 'software', 'orientadora:', 'aline', 'pires', 'vieira', 'de', 'vasconcelos', 
-			'campos', 'dos', 'goytacazes/rj', '2010'])
+		self.preparator.clean_document_list(document_list) |should_not| contain('\n')
+		self.preparator.clean_document_list(document_list) |should_not| contain('.')
 
 	def test_institution_corpus_is_a_list_of_institution_names_with_respective_prepositions(self):
 		self.preparator.parse_corpus('institution') |should| equal_to(['de,Tocantins', 'do,Mato Grosso', 
 			'do,Par\xc3\xa1', 'da,Para\xc3\xadba', 'de,Sergipe', 'do,Cear\xc3\xa1', 'de,Roraima', 
-			'de,Alagoas', ',Catarinense', 'de,Santa Catarina', 'do,Sul de Minas', 'de,S\xc3\xa3o Paulo', 
+			'de,Alagoas', ',Catarinense', 'de,Santa Catarina', 'do,Sul de Minas', 'do,Sul de Minas Gerais', 'de,S\xc3\xa3o Paulo', 
 			'do,Tri\xc3\xa2ngulo Mineiro', 'de,Minas Gerais', 'do,Sert\xc3\xa3o Pernambucano', 
 			'do,Mato Grosso do Sul', ',Baiano', 'da,Bahia', 'de,Rondonia', 'do,Rio Grande do Sul', 
 			'do,Rio Grande do Norte', 'de,Bras\xc3\xadlia', 'do,Norte de Minas', 'do,Piau\xc3\xad', 
@@ -62,13 +56,15 @@ class TestPreparation(unittest.TestCase):
 class TestTccExtractor(unittest.TestCase):
 
 	def setUp(self):
-		self.extractor = TccExtractor('1')
+		self.nome = '1'
+		self.extractor = TccExtractor(self.nome)
 
 	def test_has_one_or_more_author_type_metadata_on_a_list(self):
-		len(self.extractor.author_metadata()) |should| be_greater_than_or_equal_to(3)
+		len(self.extractor.author_metadata()) |should| be_greater_than_or_equal_to(1)
+		self.extractor.author_metadata() |should_not| contain('')
 
 	def test_has_title_type_metadata(self):
-		self.extractor.title_metadata() |should| equal_to('INTEGRAÇÃO DA GERÊNCIA DE REQUISITOS COM A PLATAFORMA REDMINE ')
+		self.extractor.title_metadata() |should_not| equal_to('')
 
  	def test_institution_names_has_been_separated_from_prepositions(self):
  		self.extractor.institution_metadata()
@@ -81,8 +77,13 @@ class TestTccExtractor(unittest.TestCase):
  		len(self.extractor.institution_names) |should| be_greater_than_or_equal_to(20)
 
  	def test_document_has_an_institution_metadata_confirmed_by_corpus(self):
- 		self.extractor.institution_metadata() |should| equal_to('Instituto Federal de Educação Ciência e Tecnologia Fluminense')
- 		
+ 		self.extractor.institution_metadata() |should_not| equal_to('Instituto Federal de Educação Ciência e Tecnologia ')
+
+ 	def test_document_abstract_metadata_type_found(self):
+ 		self.extractor.abstract_metadata()
+ 		doc = self.extractor.variouspages_doc
+ 		self.extractor.abstract_position |should| be_kind_of(int) 
+ 		self.extractor.abstract_metadata() |should| end_with('\n')
 
 
 if __name__ == '__main__':
