@@ -1,5 +1,6 @@
 #coding: utf-8
 from os import system
+from re import search
 from os.path import abspath, dirname, join
 from xml_parser import Parser
 
@@ -46,7 +47,7 @@ class TccExtractor(object):
         self.pages = self.parse.variouspages_metadata['pages']
         self.page = self.onepage_metadata['page']
         self.onepage_doc = self.preparator.convert_document(self.page, self.page)
-        self.vairouspages_doc = self.preparator.convert_document(self.pages[0], self.pages[1])
+        self.variouspages_doc = self.preparator.convert_document(self.pages[0], self.pages[1])
 
 
     def author_metadata(self):
@@ -90,7 +91,7 @@ class TccExtractor(object):
             self.institution_names.append(item[1].decode('utf-8').lower().encode('utf-8'))
         for name in self.institution_names:
             name_mod = name.split()
-            if list(set(name_mod).intersection(clean_document_list)) == name_mod:
+            if set(name_mod).intersection(clean_document_list) == set(name_mod):
                 preposition = self.institution_prepositions[self.institution_names.index(name)]
                 if preposition:
                     self.institution = self.institution + preposition + ' ' + name.capitalize()
@@ -99,10 +100,23 @@ class TccExtractor(object):
                     self.institution += name.capitalize()
                     break
         return self.institution
+
+    def abstract_metadata(self):
+        self.abstract = ''
+        self.abstract_position = 1
+        abstract_antecessor = self.variouspages_metadata['abstract_antecessor'][0]
+        abstract_sucessor = self.variouspages_metadata['abstract_sucessor'][0]
+        if abstract_antecessor not in self.variouspages_doc:
+            abstract_antecessor = '\x0c' + abstract_antecessor
+        self.abstract_position += self.variouspages_doc.index(abstract_antecessor)
+        doc_range = len(self.variouspages_doc)
+        while self.variouspages_doc[self.abstract_position] == abstract_sucessor: self.abstract_position += 1
+        while self.variouspages_doc[self.abstract_position] != abstract_sucessor:
+            self.abstract += self.variouspages_doc[self.abstract_position]
+            self.abstract_position += 1
+        return self.abstract
+
+
+
+         
         
-
-             
-
-
-
-
