@@ -1,340 +1,340 @@
-campusaraguatins, Campus Araguatins,
-campusgurupi, Campus Gurupi,
-campuspalmas, Campus Palmas,
-campusparaisodotocantins, Campus Paraíso do Tocantins,
-campusportonacional, Campus Porto Nacional,
-campusbarradogarcas, Campus Barra do Garças,
-campusbelavistacuiaba, Campus Bela Vista/Cuiabá,
-campuscaceres, Campus Cáceres,
-campuscamponovodoparecis, Campus Campo Novo do Parecis,
-campusconfresa, Campus Confresa,
-campuscuiaba, Campus Cuiabá,
-campusjuina, Campus Juína,
-campusponteselacerda, Campus Pontes e Lacerda,
-campusrondonopolis, Campus Rondonópolis,
-campussaovicente, Campus São Vicente,
-campusagricolademaraba, Campus Agrícola de Marabá,
-campusaltamira, Campus Altamira,
-campusavancadodebreves, Campus Avançado de Breves,
-campusbelem, Campus Belém,
-campusbraganca, Campus Bragança,
-campuscastanhal, Campus Castanhal,
-campusconceicaodoaraguaia, Campus Conceição do Araguaia,
-campusitaituba, Campus Itaituba,
-campusmaraba, Campus Marabá,
-campussantarem, Campus Santarém,
-campustucurui, Campus Tucuruí
-campuscajazeiras, Campus Cajazeiras,
-campuscampinagrande, Campus Campina Grande,
-campusjoaopessoa, Campus João Pessoa,
-campusmonteiro, Campus Monteiro,
-campuspatos, Campus Patos,
-campuspicui, Campus Picuí,
-campusprincesaisabel, Campus Princesa Isabel,
-campussousa, Campus Sousa,
-campusestancia, Campus Estância,
-campusitabaiana, Campus Itabaiana,
-campuslagarto, Campus Lagarto,
-campusnossasenhoradagloria, Campus Nossa Senhora da Glória,
-campussaocristovao, Campus São Cristóvão,
-campusavancadodearacati, Campus Avançado de Aracati,
-campusavancadodebaturite, Campus Avançado de Baturité,
-campusavancadodecamocim, Campus Avançado de Camocim,
-campusavancadodejaguaribe, Campus Avançado de Jaguaribe,
-campusavancadodemoradanova, Campus Avançado de Morada Nova,
-campusavancadodetabuleirodonorte, Campus Avançado de Tabuleiro do Norte,
-campusavancadodetaua, Campus Avançado de Tauá,
-campusavancadodetiangua, Campus Avançado de Tianguá,
-campusavancadodeubajara, Campus Avançado de Ubajara,
-campuscaninde, Campus Canindé,
-campuscedro, Campus Cedro,
-campuscrateus, Campus Crateús,
-campuscrato, Campus Crato,
-campusfortaleza, Campus Fortaleza,
-campusiguatu, Campus Iguatu,
-campusjuazeirodonorte, Campus Juazeiro do Norte,
-campuslimoeirodonorte, Campus Limoeiro do Norte,
-campusmaracanau, Campus Maracanaú,
-campusquixada, Campus Quixadá,
-campussobral, Campus Sobral,
-campusboavista, Campus Boa Vista,
-campusnovoparaiso, Campus Novo Paraíso,
-campusavancadodemurici, Campus Avançado de Murici,
-campusavancadodesantanadoipanema, Campus Avançado de Santana do Ipanema,
-campusavancadodesaomigueldoscampos, Campus Avançado de São Miguel dos Campos,
-campusmaceio, Campus Maceió,
-campusmaragogi, Campus Maragogi,
-campusmarechaldeodoro, Campus Marechal Deodoro,
-campuspalmeiradosindios, Campus Palmeira dos Indios,
-campuspenedo, Campus Penedo,
-campuspiranhasxingo, Campus Piranhas Xingó,
-campussatuba, Campus Satuba,
-campusavancadodeblumenau, Campus Avançado de Blumenau,
-campusavancadodefraiburgo, Campus Avançado de Fraiburgo,
-campusavancadodeibirama, Campus Avançado de Ibirama,
-campusavancadodeluzerna, Campus Avançado de Luzerna,
-campusavancadodesaofranciscodosul, Campus Avançado de São Francisco do Sul,
-campuscamboriu, Campus Camboriú,
-campusconcordia, Campus Concórdia,
-campusriodosul, Campus Rio do Sul,
-campussombrio, Campus Sombrio,
-campusvideira, Campus Videira,
-campusavancadodepocosdecaldas, Campus Avançado de Poços de Caldas,
-campusavancadodepousoalegre, Campus Avançado de Pouso Alegre,
-campusinconfidentes, Campus Inconfidentes,
-campusmachado, Campus Machado,
-campusmuzambinho, Campus Muzambinho,
-campusavancadodeboituva, Campus Avançado de Boituva,
-campusavancadodecapivari, Campus Avançado de Capivari,
-campusavancadodejacarei, Campus Avançado de Jacareí,
-campusavancadodematao, Campus Avançado de Matão,
-campusavare, Campus Avaré,
-campusbarretos, Campus Barretos,
-campusbirigui, Campus Birigui,
-campusbragancapaulista, Campus Bragança Paulista,
-campuscampinas, Campus Campinas,
-campuscamposdojordao, Campus Campos do Jordão,
-campuscaraguatatuba, Campus Caraguatatuba,
-campuscatanduva, Campus Catanduva,
-campuscubatao, Campus Cubatão,
-campusguarulhos, Campus Guarulhos,
-campushortolandia, Campus Hortolandia,
-campusitapetininga, Campus Itapetininga,
-campuspiracicaba, Campus Piracicaba,
-campuspresidenteepitacio, Campus Presidente Epitácio,
-campusregistro, Campus Registro,
-campussalto, Campus Salto,
-campussaocarlos, Campus São Carlos,
-campussaojoaodaboavista, Campus São João da Boa Vista,
-campussaojosedoscampos, Campus São José dos Campos,
-campussaopaulo, Campus São Paulo,
-campussaoroque, Campus São Roque,
-campussertaozinho, Campus Sertãozinho,
-campussuzano, Campus Suzano,
-campusvotuporanga, Campus Votuporanga,
-campusavancadodeuberlandia, Campus Avançado de Uberlândia,
-campusituiutaba, Campus Ituiutaba,
-campusparacatu, Campus Paracatu,
-campusuberaba, Campus Uberaba,
-campusuberlandia, Campus Uberlândia,
-campusavancadodeourobranco, Campus Avançado de Ouro Branco,
-campusavancadoderibeiraodasneves, Campus Avançado de Ribeirão das Neves,
-campusbambui, Campus Bambuí,
-campuscongonhas, Campus Congonhas,
-campusformiga, Campus Formiga,
-campusgovernadorvaladares, Campus Governador Valadares,
-campusouropreto, Campus Ouro Preto,
-campussaojoaoevangelista, Campus São João Evangelista,
-campuscampomourao, Campus Campo Mourão,
-campuscornelioprocopio, Campus Cornelio Procopio,
-campuscuritibautfpr, Campus Curitiba UTFPR,
-campusdoisvizinhos, Campus Dois Vizinhos,
-campusfranciscobeltrao, Campus Francisco Beltrão,
-campuslondrina, Campus Londrina,
-campusmedianeira, Campus Medianeira,
-campuspatobranco, Campus Pato Branco,
-campuspontagrossa, Campus Ponta Grossa,
-campustoledo, Campus Toledo,
-campusouricuri, Campus Ouricuri,
-campussalgueiro, Campus Salgueiro,
-campusdeaquidauana, Campus de Aquidauana,
-campusdecorumba, Campus de Corumbá,
-campusdecoxim, Campus de Coxim,
-campusdepontapora, Campus de Ponta Porã,
-campusdetreslagoas, Campus de Três Lagoas,
-campusnovaandradina, Campus Nova Andradina,
-campuscatu, Campus Catu,
-campusguanambi, Campus Guanambi,
-campusitapetinga, Campus Itapetinga,
-campussantaines, Campus Santa Inês,
-campussenhordobonfim, Campus Senhor do Bonfim,
-campusteixeiradefreitas, Campus Teixeira de Freitas,
-campusurucuca, Campus Uruçuca,
-campusvalenca, Campus Valença,
-campusavancadodecacoal, Campus Avançado de Cacoal,
-campusavancadodeportovelho, Campus Avançado de Porto Velho,
-campuscoloradodooeste, Campus Colorado do Oeste,
-campusji, Campus Ji,
-campusportovelho, Campus Porto Velho,
-campusvilhena, Campus Vilhena,
-campusavancadodefeliz, Campus Avançado de Feliz,
-campusavancadodeibiruba, Campus Avançado de Ibirubá,
-campusavancadoderolante, Campus Avançado de Rolante,
-campusbentogoncalves, Campus Bento Gonçalves,
-campuscanoas, Campus Canoas,
-campuscaxiasdosul, Campus Caxias do Sul,
-campuserechim, Campus Erechim,
-campusosorio, Campus Osório,
-campusportoalegre, Campus Porto Alegre,
-campusportoalegrerestinga, Campus Porto Alegre Restinga,
-campusriogrande, Campus Rio Grande,
-campussertao, Campus Sertão,
-campusfarroupilha, Campus Farroupilha,
-campusmossoro, Campus Mossoró,
-campusavancadodesaosebastiao, Campus Avançado de São Sebastião,
-campusavancadodetaguatingacentro, Campus Avançado de Taguatinga Centro,
-campusbrasilia, Campus Brasília,
-campusgama, Campus Gama,
-campusplanaltina, Campus Planaltina,
-campussamambaia, Campus Samambaia,
-campustaguatinga, Campus Taguatinga,
-campusaracuai, Campus Araçuaí,
-campusarinos, Campus Arinos,
-campusjanuaria, Campus Januária,
-campusmontesclaros, Campus Montes Claros,
-campuspirapora, Campus Pirapora,
-campussalinas, Campus Salinas,
-campusavancadodeoeiras, Campus Avançado de Oeiras,
-campusavancadodepedroii, Campus Avançado de Pedro II,
-campusavancadodesaojoaodopiaui, Campus Avançado de São Joao do Piauí,
-campusavancadodeteresinazonasul, Campus Avançado de Teresina Zona Sul,
-campuscorrente, Campus Corrente,
-campusfloriano, Campus Floriano,
-campusparnaiba, Campus Parnaíba,
-campuspaulistana, Campus Paulistana,
-campuspicos, Campus Picos,
-campuspiripiri, Campus Piripiri,
-campussaoraimundononato, Campus São Raimundo Nonato,
-campusteresina, Campus Teresina,
-campusurucui, Campus Uruçuí,
-campuslabrea, Campus Lábrea,
-campusmanauszona, Campus Manaus Zona,
-campusmanaus, Campus Manaus,
-campusmanaus, Campus Manaus,
-campusmaues, Campus Maués,
-campusparintins, Campus Parintins,
-campuspresidentefegueiredo, Campus Presidente Fegueiredo,
-campussaogabrieldacachoeira, Campus São Gabriel da Cachoeira,
-campustabatinga, Campus Tabatinga,
-campusavancadodeirati, Campus Avançado de Irati,
-campusavancadodeivaipora, Campus Avançado de Ivaiporã,
-campusavancadodelondrina, Campus Avançado de Londrina,
-campusavancadodepalmas, Campus Avançado de Palmas,
-campuscuritiba, Campus Curitiba,
-campusfozdoiguacu, Campus Foz do Iguaçu,
-campusjacarezinho, Campus Jacarezinho,
-campusparanagua, Campus Paranaguá,
-campusparanavai, Campus Paranavaí,
-campustelemacoborba, Campus Telêmaco Borba,
-campusumuarama, Campus Umuarama,
-campusmacapa, Campus Macapá,
-campuscruzeirodosul, Campus Cruzeiro do Sul,
-campusriobranco, Campus Rio Branco,
-campussenamadureira, Campus Sena Madureira,
-campusalcantara, Campus Alcântara,
-campusbacabal, Campus Bacabal,
-campusbarradocorda, Campus Barra do Corda,
-campusbarreirinhas, Campus Barreirinhas,
-campusburiticupu, Campus Buriticupu,
-campuscaxias, Campus Caxias,
-campuscentrohistorico, Campus Centro Histórico,
-campuscodo, Campus Codó,
-campusimperatriz, Campus Imperatriz,
-campusmaracana, Campus Maracanã,
-campusmontecastelo, Campus Monte Castelo,
-campuspinheiro, Campus Pinheiro,
-campussantaines, Campus Santa Inês,
-campussaojoaodospatos, Campus São João dos Patos,
-campussaoraimundodasmangabeiras, Campus São Raimundo das Mangabeiras,
-campustimon, Campus Timon,
-campuszedoca, Campus Zé Doca,
-campusavancadodeengenheiropaulodefrontin, Campus Avançado de Engenheiro Paulo de Frontin,
-campusduquedecaxias, Campus Duque de Caxias,
-campusmaracana, Campus Maracanã,
-campusnilopolis, Campus Nilópolis,
-campusparacambi, Campus Paracambi,
-campuspinheiral, Campus Pinheiral,
-campusrealengo, Campus Realengo,
-campussaogoncalo, Campus São Gonçalo,
-campusvoltaredonda, Campus Volta Redonda,
-campusbarreiros, Campus Barreiros,
-campusbelojardim, Campus Belo Jardim,
-campuscaruaru, Campus Caruaru,
-campusgaranhuns, Campus Garanhuns,
-campusipojuca, Campus Ipojuca,
-campuspesqueira, Campus Pesqueira,
-campusrecife, Campus Recife,
-campusvitoriadesantoantao, Campus Vitória de Santo Antão,
-campusbarreiras, Campus Barreiras,
-campuscamacari, Campus Camaçarí,
-campuseunapolis, Campus Eunápolis,
-campusfeiradesantana, Campus Feira de Santana,
-campusilheus, Campus Ilhéus,
-campusirece, Campus Irecê,
-campusjacobina, Campus Jacobina,
-campusjequie, Campus Jequié,
-campuspauloafonso, Campus Paulo Afonso,
-campusportoseguro, Campus Porto Seguro,
-campussalvador, Campus Salvador,
-campussantoamaro, Campus Santo Amaro,
-campusseabra, Campus Seabra,
-campussimoesfilho, Campus Simões Filho,
-campusvalenca, Campus Valença,
-campusvitoriadaconquista, Campus Vitória da Conquista,
-campusaracruz, Campus Aracruz,
-campusavancadocentralserrano, Campus Avançado Central Serrano,
-campusavancadodeguarapari, Campus Avançado de Guarapari,
-campusavancadodepiuma, Campus Avançado de Piúma,
-campusavancadodevendanovadoimigrante, Campus Avançado de Venda Nova do Imigrante,
-campuscacheirodeitapemirim, Campus Cacheiro de Itapemirim,
-campuscariacica, Campus Cariacica,
-campuscolatina, Campus Colatina,
-campuscolatinazonarural, Campus Colatina Zona Rural,
-campusibatiba, Campus Ibatiba,
-campuslinhares, Campus Linhares,
-campusnovavenecia, Campus Nova Venécia,
-campussantateresa, Campus Santa Teresa,
-campussaomateus, Campus São Mateus,
-campusserra, Campus Serra,
-campusvilavelha, Campus Vila Velha,
-campusvitoria, Campus Vitória,
-campusavancadodecacador, Campus Avançado de Caçador,
-campusavancadodegaropaba, Campus Avançado de Garopaba,
-campusavancadodejaraguadosul, Campus Avançado de Jaraguá do Sul,
-campusavancadodepalhoca, Campus Avançado de Palhoça,
-campusavancadodeurupema, Campus Avançado de Urupema,
-campusavancadodexanxere, Campus Avançado de Xanxerê,
-campuscanoinhas, Campus Canoinhas,
-campuschapeco, Campus Chapecó,
-campuscontinente, Campus Continente,
-campuscriciuma, Campus Criciúma,
-campusflorianopolis, Campus Florianópolis,
-campusgaspar, Campus Gaspar,
-campusitajai, Campus Itajaí,
-campusjaraguadosul, Campus Jaraguá do Sul,
-campusjoinville, Campus Joinville,
-campuslages, Campus Lages,
-campussaojose, Campus São José,
-campussaomigueldooeste, Campus São Miguel do Oeste,
-campusbomjesusdeitabapoana, Campus Bom Jesus de Itabapoana,
-campuscabofrio, Campus Cabo Frio,
-campuscamposcentro, Campus Campos-Centro,
-campuscamposcentro, Campus Campos Centro,
-campuscamposguarus, Campus Campos-Guarus,
-campusitaperuna, Campus Itaperuna,
-campusmacae, Campus Macaé,
-campusavancadodesaojoaodelrei, Campus Avançado de São João del Rei,
-campusbarbacena, Campus Barbacena,
-campusjuizdefora, Campus Juiz de Fora,
-campusmuriae, Campus Muriaé,
-campusriopomba, Campus Rio Pomba,
-campusipora, Campus Iporá,
-campusmorrinhos, Campus Morrinhos,
-campusrioverde, Campus Rio Verde,
-campusurutai, Campus Urutai,
-campusjuliodecastilhos, Campus Júlio de Castilhos,
-campuspanambi, Campus Panambi,
-campussantarosa, Campus Santa Rosa,
-campussantoaugusto, Campus Santo Augusto,
-campussaoborja, Campus São Borja,
-campussaovicentedosul, Campus São Vicente do Sul,
-campusavancadodeAguaslindas, Campus Avançado de Águas Lindas,
-campusavancadodeaparecidadegoiania, Campus Avançado de Aparecida de Goiânia,
-campusavancadodegoianiasetoroeste, Campus Avançado de Goiânia Setor Oeste,
-campusformosa, Campus Formosa,
-campusgoiania, Campus Goiânia,
-campusinhumas, Campus Inhumas,
-campusitumbiara, Campus Itumbiara,
-campusjatai, Campus Jataí
-campusluziania, Campus Luziânia
-campusuruacu, Campus Uruaçu
+Campus Araguatins
+Campus Gurupi
+Campus Palmas
+Campus Paraíso do Tocantins
+Campus Porto Nacional
+Campus Barra do Garças
+Campus Bela Vista/Cuiabá
+Campus Cáceres
+Campus Campo Novo do Parecis
+Campus Confresa
+Campus Cuiabá
+Campus Juína
+Campus Pontes e Lacerda
+Campus Rondonópolis
+Campus São Vicente
+Campus Agrícola de Marabá
+Campus Altamira
+Campus Avançado de Breves
+Campus Belém
+Campus Bragança
+Campus Castanhal
+Campus Conceição do Araguaia
+Campus Itaituba
+Campus Marabá
+Campus Santarém
+Campus Tucuruí
+Campus Cajazeiras
+Campus Campina Grande
+Campus João Pessoa
+Campus Monteiro
+Campus Patos
+Campus Picuí
+Campus Princesa Isabel
+Campus Sousa
+Campus Estância
+Campus Itabaiana
+Campus Lagarto
+Campus Nossa Senhora da Glória
+Campus São Cristóvão
+Campus Avançado de Aracati
+Campus Avançado de Baturité
+Campus Avançado de Camocim
+Campus Avançado de Jaguaribe
+Campus Avançado de Morada Nova
+Campus Avançado de Tabuleiro do Norte
+Campus Avançado de Tauá
+Campus Avançado de Tianguá
+Campus Avançado de Ubajara
+Campus Canindé
+Campus Cedro
+Campus Crateús
+Campus Crato
+Campus Fortaleza
+Campus Iguatu
+Campus Juazeiro do Norte
+Campus Limoeiro do Norte
+Campus Maracanaú
+Campus Quixadá
+Campus Sobral
+Campus Boa Vista
+Campus Novo Paraíso
+Campus Avançado de Murici
+Campus Avançado de Santana do Ipanema
+Campus Avançado de São Miguel dos Campos
+Campus Maceió
+Campus Maragogi
+Campus Marechal Deodoro
+Campus Palmeira dos Indios
+Campus Penedo
+Campus Piranhas Xingó
+Campus Satuba
+Campus Avançado de Blumenau
+Campus Avançado de Fraiburgo
+Campus Avançado de Ibirama
+Campus Avançado de Luzerna
+Campus Avançado de São Francisco do Sul
+Campus Camboriú
+Campus Concórdia
+Campus Rio do Sul
+Campus Sombrio
+Campus Videira
+Campus Avançado de Poços de Caldas
+Campus Avançado de Pouso Alegre
+Campus Inconfidentes
+Campus Machado
+Campus Muzambinho
+Campus Avançado de Boituva
+Campus Avançado de Capivari
+Campus Avançado de Jacareí
+Campus Avançado de Matão
+Campus Avaré
+Campus Barretos
+Campus Birigui
+Campus Bragança Paulista
+Campus Campinas
+Campus Campos do Jordão
+Campus Caraguatatuba
+Campus Catanduva
+Campus Cubatão
+Campus Guarulhos
+Campus Hortolandia
+Campus Itapetininga
+Campus Piracicaba
+Campus Presidente Epitácio
+Campus Registro
+Campus Salto
+Campus São Carlos
+Campus São João da Boa Vista
+Campus São José dos Campos
+Campus São Paulo
+Campus São Roque
+Campus Sertãozinho
+Campus Suzano
+Campus Votuporanga
+Campus Avançado de Uberlândia
+Campus Ituiutaba
+Campus Paracatu
+Campus Uberaba
+Campus Uberlândia
+Campus Avançado de Ouro Branco
+Campus Avançado de Ribeirão das Neves
+Campus Bambuí
+Campus Congonhas
+Campus Formiga
+Campus Governador Valadares
+Campus Ouro Preto
+Campus São João Evangelista
+Campus Campo Mourão
+Campus Cornelio Procopio
+Campus Curitiba UTFPR
+Campus Dois Vizinhos
+Campus Francisco Beltrão
+Campus Londrina
+Campus Medianeira
+Campus Pato Branco
+Campus Ponta Grossa
+Campus Toledo
+Campus Ouricuri
+Campus Salgueiro
+Campus de Aquidauana
+Campus de Corumbá
+Campus de Coxim
+Campus de Ponta Porã
+Campus de Três Lagoas
+Campus Nova Andradina
+Campus Catu
+Campus Guanambi
+Campus Itapetinga
+Campus Santa Inês
+Campus Senhor do Bonfim
+Campus Teixeira de Freitas
+Campus Uruçuca
+Campus Valença
+Campus Avançado de Cacoal
+Campus Avançado de Porto Velho
+Campus Colorado do Oeste
+Campus Ji
+Campus Porto Velho
+Campus Vilhena
+Campus Avançado de Feliz
+Campus Avançado de Ibirubá
+Campus Avançado de Rolante
+Campus Bento Gonçalves
+Campus Canoas
+Campus Caxias do Sul
+Campus Erechim
+Campus Osório
+Campus Porto Alegre
+Campus Porto Alegre Restinga
+Campus Rio Grande
+Campus Sertão
+Campus Farroupilha
+Campus Mossoró
+Campus Avançado de São Sebastião
+Campus Avançado de Taguatinga Centro
+Campus Brasília
+Campus Gama
+Campus Planaltina
+Campus Samambaia
+Campus Taguatinga
+Campus Araçuaí
+Campus Arinos
+Campus Januária
+Campus Montes Claros
+Campus Pirapora
+Campus Salinas
+Campus Avançado de Oeiras
+Campus Avançado de Pedro II
+Campus Avançado de São Joao do Piauí
+Campus Avançado de Teresina Zona Sul
+Campus Corrente
+Campus Floriano
+Campus Parnaíba
+Campus Paulistana
+Campus Picos
+Campus Piripiri
+Campus São Raimundo Nonato
+Campus Teresina
+Campus Uruçuí
+Campus Lábrea
+Campus Manaus Zona
+Campus Manaus
+Campus Manaus
+Campus Maués
+Campus Parintins
+Campus Presidente Fegueiredo
+Campus São Gabriel da Cachoeira
+Campus Tabatinga
+Campus Avançado de Irati
+Campus Avançado de Ivaiporã
+Campus Avançado de Londrina
+Campus Avançado de Palmas
+Campus Curitiba
+Campus Foz do Iguaçu
+Campus Jacarezinho
+Campus Paranaguá
+Campus Paranavaí
+Campus Telêmaco Borba
+Campus Umuarama
+Campus Macapá
+Campus Cruzeiro do Sul
+Campus Rio Branco
+Campus Sena Madureira
+Campus Alcântara
+Campus Bacabal
+Campus Barra do Corda
+Campus Barreirinhas
+Campus Buriticupu
+Campus Caxias
+Campus Centro Histórico
+Campus Codó
+Campus Imperatriz
+Campus Maracanã
+Campus Monte Castelo
+Campus Pinheiro
+Campus Santa Inês
+Campus São João dos Patos
+Campus São Raimundo das Mangabeiras
+Campus Timon
+Campus Zé Doca
+Campus Avançado de Engenheiro Paulo de Frontin
+Campus Duque de Caxias
+Campus Maracanã
+Campus Nilópolis
+Campus Paracambi
+Campus Pinheiral
+Campus Realengo
+Campus São Gonçalo
+Campus Volta Redonda
+Campus Barreiros
+Campus Belo Jardim
+Campus Caruaru
+Campus Garanhuns
+Campus Ipojuca
+Campus Pesqueira
+Campus Recife
+Campus Vitória de Santo Antão
+Campus Barreiras
+Campus Camaçarí
+Campus Eunápolis
+Campus Feira de Santana
+Campus Ilhéus
+Campus Irecê
+Campus Jacobina
+Campus Jequié
+Campus Paulo Afonso
+Campus Porto Seguro
+Campus Salvador
+Campus Santo Amaro
+Campus Seabra
+Campus Simões Filho
+Campus Valença
+Campus Vitória da Conquista
+Campus Aracruz
+Campus Avançado Central Serrano
+Campus Avançado de Guarapari
+Campus Avançado de Piúma
+Campus Avançado de Venda Nova do Imigrante
+Campus Cacheiro de Itapemirim
+Campus Cariacica
+Campus Colatina
+Campus Colatina Zona Rural
+Campus Ibatiba
+Campus Linhares
+Campus Nova Venécia
+Campus Santa Teresa
+Campus São Mateus
+Campus Serra
+Campus Vila Velha
+Campus Vitória
+Campus Avançado de Caçador
+Campus Avançado de Garopaba
+Campus Avançado de Jaraguá do Sul
+Campus Avançado de Palhoça
+Campus Avançado de Urupema
+Campus Avançado de Xanxerê
+Campus Canoinhas
+Campus Chapecó
+Campus Continente
+Campus Criciúma
+Campus Florianópolis
+Campus Gaspar
+Campus Itajaí
+Campus Jaraguá do Sul
+Campus Joinville
+Campus Lages
+Campus São José
+Campus São Miguel do Oeste
+Campus Bom Jesus de Itabapoana
+Campus Cabo Frio
+Campus Campos-Centro
+Campus Campos Centro
+Campus Campos-Guarus
+Campus Itaperuna
+Campus Macaé
+Campus Avançado de São João del Rei
+Campus Barbacena
+Campus Juiz de Fora
+Campus Muriaé
+Campus Rio Pomba
+Campus Iporá
+Campus Morrinhos
+Campus Rio Verde
+Campus Urutai
+Campus Júlio de Castilhos
+Campus Panambi
+Campus Santa Rosa
+Campus Santo Augusto
+Campus São Borja
+Campus São Vicente do Sul
+Campus Avançado de Águas Lindas
+Campus Avançado de Aparecida de Goiânia
+Campus Avançado de Goiânia Setor Oeste
+Campus Formosa
+Campus Goiânia
+Campus Inhumas
+Campus Itumbiara
+Campus Jataí
+Campus Luziânia
+Campus Uruaçu
