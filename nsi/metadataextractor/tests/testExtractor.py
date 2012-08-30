@@ -14,9 +14,9 @@ TEMPLATES_PATH = join(ROOT_PATH, '..', 'templates')
 class TestPreparation(unittest.TestCase):
 
 	def setUp(self):
-		self.parse = Parser(join(TEMPLATES_PATH, 'tcc.xml'))
+		self.parse = Parser('tcc.xml')
 		self.tipo = 'obtencaograu'
-		self.nome = '1'
+		self.nome = 'doctest1'
 		self.preparator = Preparator(self.tipo, self.nome)
 		
 	def test_pdf_document_exists(self):
@@ -33,7 +33,7 @@ class TestPreparation(unittest.TestCase):
 		self.converted_document |should| be_into (self.obtecaograu_converted_documents)
 
 	def test_name_corpus_has_a_certain_quantity_of_names(self):
-		len(self.preparator.parse_corpus('names')) |should| equal_to(1639)
+		len(self.preparator.parse_corpus('names')) |should| equal_to(6287)
 
 	def test_list_cleaner_cleans_document_lists(self):
 		page = self.parse.onepage_metadata['page']
@@ -56,12 +56,13 @@ class TestPreparation(unittest.TestCase):
 class TestTccExtractor(unittest.TestCase):
 
 	def setUp(self):
-		self.nome = '1'
+		self.nome = 'doctest1'
 		self.extractor = TccExtractor(self.nome)
 
 	def test_has_one_or_more_author_type_metadata_on_a_list(self):
 		len(self.extractor.author_metadata()) |should| be_greater_than_or_equal_to(1)
 		self.extractor.author_metadata() |should_not| contain('')
+
 
 	def test_has_title_type_metadata(self):
 		self.extractor.title_metadata() |should_not| equal_to('')
@@ -76,10 +77,13 @@ class TestTccExtractor(unittest.TestCase):
 
  		len(self.extractor.institution_names) |should| be_greater_than_or_equal_to(20)
 
- 	def test_document_has_an_institution_metadata_confirmed_by_corpus(self):
+ 	def test_document_has_a_confirmed_by_corpus_institution_metadata(self):
  		self.extractor.institution_metadata() |should_not| equal_to('Instituto Federal de Educação Ciência e Tecnologia ')
 
- 	def test_document_abstract_metadata_type_found(self):
+ 	def test_document_has_a_confirmed_by_corpus_campus_metadata(self):
+ 		self.extractor.campus_metadata() |should_not| equal_to('')
+
+ 	def test_document_has_abstract_metadata_type(self):
  		self.extractor.abstract_metadata()
  		doc = self.extractor.variouspages_doc
  		self.extractor.abstract_position |should| be_kind_of(int) 
