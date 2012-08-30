@@ -54,16 +54,13 @@ class TccExtractor(object):
         self.authors = []
         name_corpus = self.preparator.parse_corpus('names')
         sucessor = self.onepage_metadata['author_sucessor'][0]
+        breakers = self.onepage_metadata['author_breaker']
         for line in self.onepage_doc:
-            line_mod = line.lower().split()
-            corpus_common = bool(set(line_mod).intersection(name_corpus))
-            if corpus_common:
+            line_mod = set(line.lower().split())
+            corpus_common = bool(line_mod.intersection(name_corpus))
+            breaker = bool(line_mod.intersection(breakers))
+            if corpus_common and not breaker:
                 self.authors.append(line)
-        if not self.authors:
-            line = 0
-            while self.onepage_doc[line] != sucessor:
-                self.authors.append(self.onepage_doc[line])
-                line += 1
         return self.authors
 
     def title_metadata(self):
@@ -90,8 +87,8 @@ class TccExtractor(object):
             self.institution_prepositions.append(item[0])
             self.institution_names.append(item[1].decode('utf-8').lower().encode('utf-8'))
         for name in self.institution_names:
-            name_mod = name.split()
-            if set(name_mod).intersection(clean_document_list) == set(name_mod):
+            name_mod = set(name.split())
+            if set(name_mod).intersection(clean_document_list) == name_mod:
                 preposition = self.institution_prepositions[self.institution_names.index(name)]
                 if preposition:
                     self.institution = self.institution + preposition + ' ' + name.capitalize()
@@ -100,6 +97,17 @@ class TccExtractor(object):
                     self.institution += name.capitalize()
                     break
         return self.institution
+
+    def campus_metadata(self):
+        self.campus = 'Campus '
+        clean_document_list = self.preparator.clean_document_list(self.onepage_doc)
+        self.campus_corpus = self.preparator.parse_corpus('campus')
+        for campus in self.campus_corpus:
+            campus_mod = set(campus.lower().split())
+            if set(campus_mod).intersection(clean_document_list) == campus_mod:
+                self.campus += campus
+                break
+        return self.campus
 
     def abstract_metadata(self):
         self.abstract = ''
@@ -115,8 +123,3 @@ class TccExtractor(object):
             self.abstract += self.variouspages_doc[self.abstract_position]
             self.abstract_position += 1
         return self.abstract
-
-
-
-         
-        
