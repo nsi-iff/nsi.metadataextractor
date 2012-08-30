@@ -1,340 +1,340 @@
-Campus Araguatins
-Campus Gurupi
-Campus Palmas
-Campus Paraíso do Tocantins
-Campus Porto Nacional
-Campus Barra do Garças
-Campus Bela Vista/Cuiabá
-Campus Cáceres
-Campus Campo Novo do Parecis
-Campus Confresa
-Campus Cuiabá
-Campus Juína
-Campus Pontes e Lacerda
-Campus Rondonópolis
-Campus São Vicente
-Campus Agrícola de Marabá
-Campus Altamira
-Campus Avançado de Breves
-Campus Belém
-Campus Bragança
-Campus Castanhal
-Campus Conceição do Araguaia
-Campus Itaituba
-Campus Marabá
-Campus Santarém
-Campus Tucuruí
-Campus Cajazeiras
-Campus Campina Grande
-Campus João Pessoa
-Campus Monteiro
-Campus Patos
-Campus Picuí
-Campus Princesa Isabel
-Campus Sousa
-Campus Estância
-Campus Itabaiana
-Campus Lagarto
-Campus Nossa Senhora da Glória
-Campus São Cristóvão
-Campus Avançado de Aracati
-Campus Avançado de Baturité
-Campus Avançado de Camocim
-Campus Avançado de Jaguaribe
-Campus Avançado de Morada Nova
-Campus Avançado de Tabuleiro do Norte
-Campus Avançado de Tauá
-Campus Avançado de Tianguá
-Campus Avançado de Ubajara
-Campus Canindé
-Campus Cedro
-Campus Crateús
-Campus Crato
-Campus Fortaleza
-Campus Iguatu
-Campus Juazeiro do Norte
-Campus Limoeiro do Norte
-Campus Maracanaú
-Campus Quixadá
-Campus Sobral
-Campus Boa Vista
-Campus Novo Paraíso
-Campus Avançado de Murici
-Campus Avançado de Santana do Ipanema
-Campus Avançado de São Miguel dos Campos
-Campus Maceió
-Campus Maragogi
-Campus Marechal Deodoro
-Campus Palmeira dos Indios
-Campus Penedo
-Campus Piranhas Xingó
-Campus Satuba
-Campus Avançado de Blumenau
-Campus Avançado de Fraiburgo
-Campus Avançado de Ibirama
-Campus Avançado de Luzerna
-Campus Avançado de São Francisco do Sul
-Campus Camboriú
-Campus Concórdia
-Campus Rio do Sul
-Campus Sombrio
-Campus Videira
-Campus Avançado de Poços de Caldas
-Campus Avançado de Pouso Alegre
-Campus Inconfidentes
-Campus Machado
-Campus Muzambinho
-Campus Avançado de Boituva
-Campus Avançado de Capivari
-Campus Avançado de Jacareí
-Campus Avançado de Matão
-Campus Avaré
-Campus Barretos
-Campus Birigui
-Campus Bragança Paulista
-Campus Campinas
-Campus Campos do Jordão
-Campus Caraguatatuba
-Campus Catanduva
-Campus Cubatão
-Campus Guarulhos
-Campus Hortolandia
-Campus Itapetininga
-Campus Piracicaba
-Campus Presidente Epitácio
-Campus Registro
-Campus Salto
-Campus São Carlos
-Campus São João da Boa Vista
-Campus São José dos Campos
-Campus São Paulo
-Campus São Roque
-Campus Sertãozinho
-Campus Suzano
-Campus Votuporanga
-Campus Avançado de Uberlândia
-Campus Ituiutaba
-Campus Paracatu
-Campus Uberaba
-Campus Uberlândia
-Campus Avançado de Ouro Branco
-Campus Avançado de Ribeirão das Neves
-Campus Bambuí
-Campus Congonhas
-Campus Formiga
-Campus Governador Valadares
-Campus Ouro Preto
-Campus São João Evangelista
-Campus Campo Mourão
-Campus Cornelio Procopio
-Campus Curitiba UTFPR
-Campus Dois Vizinhos
-Campus Francisco Beltrão
-Campus Londrina
-Campus Medianeira
-Campus Pato Branco
-Campus Ponta Grossa
-Campus Toledo
-Campus Ouricuri
-Campus Salgueiro
-Campus de Aquidauana
-Campus de Corumbá
-Campus de Coxim
-Campus de Ponta Porã
-Campus de Três Lagoas
-Campus Nova Andradina
-Campus Catu
-Campus Guanambi
-Campus Itapetinga
-Campus Santa Inês
-Campus Senhor do Bonfim
-Campus Teixeira de Freitas
-Campus Uruçuca
-Campus Valença
-Campus Avançado de Cacoal
-Campus Avançado de Porto Velho
-Campus Colorado do Oeste
-Campus Ji
-Campus Porto Velho
-Campus Vilhena
-Campus Avançado de Feliz
-Campus Avançado de Ibirubá
-Campus Avançado de Rolante
-Campus Bento Gonçalves
-Campus Canoas
-Campus Caxias do Sul
-Campus Erechim
-Campus Osório
-Campus Porto Alegre
-Campus Porto Alegre Restinga
-Campus Rio Grande
-Campus Sertão
-Campus Farroupilha
-Campus Mossoró
-Campus Avançado de São Sebastião
-Campus Avançado de Taguatinga Centro
-Campus Brasília
-Campus Gama
-Campus Planaltina
-Campus Samambaia
-Campus Taguatinga
-Campus Araçuaí
-Campus Arinos
-Campus Januária
-Campus Montes Claros
-Campus Pirapora
-Campus Salinas
-Campus Avançado de Oeiras
-Campus Avançado de Pedro II
-Campus Avançado de São Joao do Piauí
-Campus Avançado de Teresina Zona Sul
-Campus Corrente
-Campus Floriano
-Campus Parnaíba
-Campus Paulistana
-Campus Picos
-Campus Piripiri
-Campus São Raimundo Nonato
-Campus Teresina
-Campus Uruçuí
-Campus Lábrea
-Campus Manaus Zona
-Campus Manaus
-Campus Manaus
-Campus Maués
-Campus Parintins
-Campus Presidente Fegueiredo
-Campus São Gabriel da Cachoeira
-Campus Tabatinga
-Campus Avançado de Irati
-Campus Avançado de Ivaiporã
-Campus Avançado de Londrina
-Campus Avançado de Palmas
-Campus Curitiba
-Campus Foz do Iguaçu
-Campus Jacarezinho
-Campus Paranaguá
-Campus Paranavaí
-Campus Telêmaco Borba
-Campus Umuarama
-Campus Macapá
-Campus Cruzeiro do Sul
-Campus Rio Branco
-Campus Sena Madureira
-Campus Alcântara
-Campus Bacabal
-Campus Barra do Corda
-Campus Barreirinhas
-Campus Buriticupu
-Campus Caxias
-Campus Centro Histórico
-Campus Codó
-Campus Imperatriz
-Campus Maracanã
-Campus Monte Castelo
-Campus Pinheiro
-Campus Santa Inês
-Campus São João dos Patos
-Campus São Raimundo das Mangabeiras
-Campus Timon
-Campus Zé Doca
-Campus Avançado de Engenheiro Paulo de Frontin
-Campus Duque de Caxias
-Campus Maracanã
-Campus Nilópolis
-Campus Paracambi
-Campus Pinheiral
-Campus Realengo
-Campus São Gonçalo
-Campus Volta Redonda
-Campus Barreiros
-Campus Belo Jardim
-Campus Caruaru
-Campus Garanhuns
-Campus Ipojuca
-Campus Pesqueira
-Campus Recife
-Campus Vitória de Santo Antão
-Campus Barreiras
-Campus Camaçarí
-Campus Eunápolis
-Campus Feira de Santana
-Campus Ilhéus
-Campus Irecê
-Campus Jacobina
-Campus Jequié
-Campus Paulo Afonso
-Campus Porto Seguro
-Campus Salvador
-Campus Santo Amaro
-Campus Seabra
-Campus Simões Filho
-Campus Valença
-Campus Vitória da Conquista
-Campus Aracruz
-Campus Avançado Central Serrano
-Campus Avançado de Guarapari
-Campus Avançado de Piúma
-Campus Avançado de Venda Nova do Imigrante
-Campus Cacheiro de Itapemirim
-Campus Cariacica
-Campus Colatina
-Campus Colatina Zona Rural
-Campus Ibatiba
-Campus Linhares
-Campus Nova Venécia
-Campus Santa Teresa
-Campus São Mateus
-Campus Serra
-Campus Vila Velha
-Campus Vitória
-Campus Avançado de Caçador
-Campus Avançado de Garopaba
-Campus Avançado de Jaraguá do Sul
-Campus Avançado de Palhoça
-Campus Avançado de Urupema
-Campus Avançado de Xanxerê
-Campus Canoinhas
-Campus Chapecó
-Campus Continente
-Campus Criciúma
-Campus Florianópolis
-Campus Gaspar
-Campus Itajaí
-Campus Jaraguá do Sul
-Campus Joinville
-Campus Lages
-Campus São José
-Campus São Miguel do Oeste
-Campus Bom Jesus de Itabapoana
-Campus Cabo Frio
-Campus Campos-Centro
-Campus Campos Centro
-Campus Campos-Guarus
-Campus Itaperuna
-Campus Macaé
-Campus Avançado de São João del Rei
-Campus Barbacena
-Campus Juiz de Fora
-Campus Muriaé
-Campus Rio Pomba
-Campus Iporá
-Campus Morrinhos
-Campus Rio Verde
-Campus Urutai
-Campus Júlio de Castilhos
-Campus Panambi
-Campus Santa Rosa
-Campus Santo Augusto
-Campus São Borja
-Campus São Vicente do Sul
-Campus Avançado de Águas Lindas
-Campus Avançado de Aparecida de Goiânia
-Campus Avançado de Goiânia Setor Oeste
-Campus Formosa
-Campus Goiânia
-Campus Inhumas
-Campus Itumbiara
-Campus Jataí
-Campus Luziânia
-Campus Uruaçu
+Araguatins
+Gurupi
+Palmas
+Paraíso do Tocantins
+Porto Nacional
+Barra do Garças
+Bela Vista/Cuiabá
+Cáceres
+Campo Novo do Parecis
+Confresa
+Cuiabá
+Juína
+Pontes e Lacerda
+Rondonópolis
+São Vicente
+Agrícola de Marabá
+Altamira
+Avançado de Breves
+Belém
+Bragança
+Castanhal
+Conceição do Araguaia
+Itaituba
+Marabá
+Santarém
+Tucuruí
+Cajazeiras
+Campina Grande
+João Pessoa
+Monteiro
+Patos
+Picuí
+Princesa Isabel
+Sousa
+Estância
+Itabaiana
+Lagarto
+Nossa Senhora da Glória
+São Cristóvão
+Avançado de Aracati
+Avançado de Baturité
+Avançado de Camocim
+Avançado de Jaguaribe
+Avançado de Morada Nova
+Avançado de Tabuleiro do Norte
+Avançado de Tauá
+Avançado de Tianguá
+Avançado de Ubajara
+Canindé
+Cedro
+Crateús
+Crato
+Fortaleza
+Iguatu
+Juazeiro do Norte
+Limoeiro do Norte
+Maracanaú
+Quixadá
+Sobral
+Boa Vista
+Novo Paraíso
+Avançado de Murici
+Avançado de Santana do Ipanema
+Avançado de São Miguel dos Campos
+Maceió
+Maragogi
+Marechal Deodoro
+Palmeira dos Indios
+Penedo
+Piranhas Xingó
+Satuba
+Avançado de Blumenau
+Avançado de Fraiburgo
+Avançado de Ibirama
+Avançado de Luzerna
+Avançado de São Francisco do Sul
+Camboriú
+Concórdia
+Rio do Sul
+Sombrio
+Videira
+Avançado de Poços de Caldas
+Avançado de Pouso Alegre
+Inconfidentes
+Machado
+Muzambinho
+Avançado de Boituva
+Avançado de Capivari
+Avançado de Jacareí
+Avançado de Matão
+Avaré
+Barretos
+Birigui
+Bragança Paulista
+Campinas
+Campos do Jordão
+Caraguatatuba
+Catanduva
+Cubatão
+Guarulhos
+Hortolandia
+Itapetininga
+Piracicaba
+Presidente Epitácio
+Registro
+Salto
+São Carlos
+São João da Boa Vista
+São José dos Campos
+São Paulo
+São Roque
+Sertãozinho
+Suzano
+Votuporanga
+Avançado de Uberlândia
+Ituiutaba
+Paracatu
+Uberaba
+Uberlândia
+Avançado de Ouro Branco
+Avançado de Ribeirão das Neves
+Bambuí
+Congonhas
+Formiga
+Governador Valadares
+Ouro Preto
+São João Evangelista
+Campo Mourão
+Cornelio Procopio
+Curitiba UTFPR
+Dois Vizinhos
+Francisco Beltrão
+Londrina
+Medianeira
+Pato Branco
+Ponta Grossa
+Toledo
+Ouricuri
+Salgueiro
+Aquidauana
+Corumbá
+Coxim
+Ponta Porã
+Três Lagoas
+Nova Andradina
+Catu
+Guanambi
+Itapetinga
+Santa Inês
+Senhor do Bonfim
+Teixeira de Freitas
+Uruçuca
+Valença
+Avançado de Cacoal
+Avançado de Porto Velho
+Colorado do Oeste
+Ji
+Porto Velho
+Vilhena
+Avançado de Feliz
+Avançado de Ibirubá
+Avançado de Rolante
+Bento Gonçalves
+Canoas
+Caxias do Sul
+Erechim
+Osório
+Porto Alegre
+Porto Alegre Restinga
+Rio Grande
+Sertão
+Farroupilha
+Mossoró
+Avançado de São Sebastião
+Avançado de Taguatinga Centro
+Brasília
+Gama
+Planaltina
+Samambaia
+Taguatinga
+Araçuaí
+Arinos
+Januária
+Montes Claros
+Pirapora
+Salinas
+Avançado de Oeiras
+Avançado de Pedro II
+Avançado de São Joao do Piauí
+Avançado de Teresina Zona Sul
+Corrente
+Floriano
+Parnaíba
+Paulistana
+Picos
+Piripiri
+São Raimundo Nonato
+Teresina
+Uruçuí
+Lábrea
+Manaus Zona
+Manaus
+Manaus
+Maués
+Parintins
+Presidente Fegueiredo
+São Gabriel da Cachoeira
+Tabatinga
+Avançado de Irati
+Avançado de Ivaiporã
+Avançado de Londrina
+Avançado de Palmas
+Curitiba
+Foz do Iguaçu
+Jacarezinho
+Paranaguá
+Paranavaí
+Telêmaco Borba
+Umuarama
+Macapá
+Cruzeiro do Sul
+Rio Branco
+Sena Madureira
+Alcântara
+Bacabal
+Barra do Corda
+Barreirinhas
+Buriticupu
+Caxias
+Centro Histórico
+Codó
+Imperatriz
+Maracanã
+Monte Castelo
+Pinheiro
+Santa Inês
+São João dos Patos
+São Raimundo das Mangabeiras
+Timon
+Zé Doca
+Avançado de Engenheiro Paulo de Frontin
+Duque de Caxias
+Maracanã
+Nilópolis
+Paracambi
+Pinheiral
+Realengo
+São Gonçalo
+Volta Redonda
+Barreiros
+Belo Jardim
+Caruaru
+Garanhuns
+Ipojuca
+Pesqueira
+Recife
+Vitória de Santo Antão
+Barreiras
+Camaçarí
+Eunápolis
+Feira de Santana
+Ilhéus
+Irecê
+Jacobina
+Jequié
+Paulo Afonso
+Porto Seguro
+Salvador
+Santo Amaro
+Seabra
+Simões Filho
+Valença
+Vitória da Conquista
+Aracruz
+Avançado Central Serrano
+Avançado de Guarapari
+Avançado de Piúma
+Avançado de Venda Nova do Imigrante
+Cacheiro de Itapemirim
+Cariacica
+Colatina
+Colatina Zona Rural
+Ibatiba
+Linhares
+Nova Venécia
+Santa Teresa
+São Mateus
+Serra
+Vila Velha
+Vitória
+Avançado de Caçador
+Avançado de Garopaba
+Avançado de Jaraguá do Sul
+Avançado de Palhoça
+Avançado de Urupema
+Avançado de Xanxerê
+Canoinhas
+Chapecó
+Continente
+Criciúma
+Florianópolis
+Gaspar
+Itajaí
+Jaraguá do Sul
+Joinville
+Lages
+São José
+São Miguel do Oeste
+Bom Jesus de Itabapoana
+Cabo Frio
+Campos-Centro
+Campos Centro
+Campos-Guarus
+Itaperuna
+Macaé
+Avançado de São João del Rei
+Barbacena
+Juiz de Fora
+Muriaé
+Rio Pomba
+Iporá
+Morrinhos
+Rio Verde
+Urutai
+Júlio de Castilhos
+Panambi
+Santa Rosa
+Santo Augusto
+São Borja
+São Vicente do Sul
+Avançado de Águas Lindas
+Avançado de Aparecida de Goiânia
+Avançado de Goiânia Setor Oeste
+Formosa
+Goiânia
+Inhumas
+Itumbiara
+Jataí
+Luziânia
+Uruaçu
