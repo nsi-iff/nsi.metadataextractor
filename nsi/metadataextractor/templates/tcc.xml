@@ -3,13 +3,14 @@
     <OnePage page = "2">
         <metadata id = "author">
             <position type = "general">0</position>
+            <breaker type = "general">orientador:,orientadora:,co-orientador:,co-orientadora:,prof.,profa.</breaker>
             <sucessor type = "word">\n</sucessor>
         </metadata>
         <metadata id = "institution">
             <antecessor type = "word">universidade,instituto</antecessor>
         </metadata>
         <metadata id = "campus">
-            <antecessor type = "palavra">CAMPUS,CAMPI</antecessor>
+            <validator type = "palavra">campus,campi</validator>
         </metadata>
         <metadata id = "grade">
             <graduation type = "palavra">GRADUAÇÃO,CURSO SUPERIOR,BACHARELADO,LICENCIATURA,TECNÓLOGO</graduation>
