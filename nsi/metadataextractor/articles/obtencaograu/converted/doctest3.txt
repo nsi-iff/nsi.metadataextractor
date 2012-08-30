@@ -1,0 +1,198 @@
+AGRADECIMENTOS
+
+A
+Agradeço ao LTEX por não ter vírus de macro. . .
+
+SUMÁRIO
+
+LISTA DE ABREVIATURAS E SIGLAS . . . . . . . . . . . . . . . . . . . .
+
+6
+
+LISTA DE FIGURAS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+7
+
+RESUMO . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+8
+
+ABSTRACT
+
+9
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+1 INTRODUÇÃO . . . . . . . . . . . .
+1.1
+Figuras e tabelas . . . . . . . . . .
+1.1.1
+Classiﬁcação dos etc. . . . . . . .
+1.2
+Sobre as referências bibliográﬁcas
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+. . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+
+10
+10
+10
+10
+
+REFERÊNCIAS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+12
+
+LISTA DE ABREVIATURAS E SIGLAS
+
+SMP
+
+Symmetric Multi-Processor
+
+NUMA Non-Uniform Memory Access
+SIMD
+
+Single Instruction Multiple Data
+
+SPMD
+
+Single Program Multiple Data
+
+ABNT
+
+Associação Brasileira de Normas Técnicas
+
+LISTA DE FIGURAS
+
+Figura 1.1:
+
+Figura 1.2:
+
+Exemplo de ﬁgura importada de um arquivo .eps e também exemplo de caption muito grande que ocupa mais de uma linha na Lista
+de Figuras . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Exemplo de ﬁgura desenhada com o environment picture. . . . . .
+
+10
+11
+
+RESUMO
+
+Este documento é um exemplo de como formatar documentos para o Instituto de InA
+formática da UFRGS usando as classes LTEX disponibilizadas pelo UTUG. Ao mesmo
+tempo, pode servir de consulta para comandos mais genéricos. O texto do resumo não
+deve conter mais do que 500 palavras.
+
+A
+Palavras-chave: Formatação eletrônica de documentos, LTEX, ABNT, UFRGS.
+
+A
+Using LTEX to Prepare Documents at II/UFRGS
+
+ABSTRACT
+
+This document is an example on how to prepare documents at II/UFRGS using the
+A
+LTEX classes provided by the UTUG. At the same time, it may serve as a guide for
+general-purpose commands. The text in the abstract should not contain more than 500 words.
+
+A
+Keywords: Electronic document preparation, LTEX, ABNT, UFRGS.
+
+10
+
+1 INTRODUÇÃO
+
+No início dos tempos, Donald E. Knuth criou o TEX. Algum tempo depois, Leslie
+A
+Lamport criou o LTEX. Graças a eles, não somos obrigados a usar o Word nem o StarOfﬁce.
+
+1.1 Figuras e tabelas
+Esta seção faz referência às Figuras 1.1 e 1.2, a título de exemplo. A primeira representa o caso mais comum, onde a ﬁgura propriamente dita é importada de um arquivo
+.eps (aplicativos como xﬁg e dia estão entre os mais usados para gerar ﬁguras no formato .eps). A segunda exempliﬁca o uso do environment picture, para desenhar
+A
+usando o próprio LTEX.
+Tabelas são construídas com praticamente os mesmos comandos. Lembre-se, porém,
+que o caption das tabelas deve ir em cima.
+1.1.1 Classiﬁcação dos etc.
+O formato adotado pela ABNT prevê apenas três níveis (capítulo, seção e subseção).
+Assim, \subsubsection não é aconselhado.
+
+1.2 Sobre as referências bibliográﬁcas
+Recomenda-se seriamente fazer uso do pacote bibabnt, também disponibilizado na
+página do UTUG (2001). Esse pacote provê um estilo B IB T E X para formatação de referências bibliográﬁcas combinando normas da ABNT e do Instituto de Informática da
+UFRGS.
+As seguintes referências são colocadas aqui a título de exemplo: (ANDREWS, 1991;
+0
+
+0
+
+q1
+
+q0
+
+1
+
+q3
+
+0
+
+0
+
+1
+1
+
+q2
+
+1
+
+Figura 1.1: Exemplo de ﬁgura importada de um arquivo .eps e também exemplo de
+caption muito grande que ocupa mais de uma linha na Lista de Figuras
+
+

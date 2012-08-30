@@ -1,0 +1,121 @@
+MARIA ALCILÉIA ALVES ROCHA
+RAQUEL PEREIRA CRESPO
+
+AVALIAÇÃO DA USABILIDADE DE UM SISTEMA DE SUPORTE À DECISÃO: O
+CASO DO MDECISION
+Monografia apresentada ao Instituto Federal de
+Educação, Ciência e Tecnologia Fluminense
+como parte das exigências para a conclusão do
+Curso de Pós-graduação lato sensu em Análise,
+Projeto e Gerência de Sistemas de Informação.
+
+Aprovada em 10 de abril de 2012.
+Banca Avaliadora:
+
+___________________________________________________________________
+Profạ Simone Vasconcelos Silva (Presidente/IFF)
+Doutora em Computação / UFF
+Instituto Federal de Educação, Ciência e Tecnologia Fluminense
+___________________________________________________________________
+Prof. André Luís Policani Freitas (UENF)
+Doutor em Engenharia de Produção / UENF
+Universidade Estadual do Norte Fluminense Darcy Ribeiro
+___________________________________________________________________
+Profạ Aline Pires Vieira de Vasconcelos (IFF)
+Doutora em Engenharia de Sistemas e Computação / UFRJ
+Instituto Federal de Educação, Ciência e Tecnologia Fluminense
+___________________________________________________________________
+Profạ Cibelle Degel Barbosa (IFF)
+Doutora em Produção Vegetal / UENF
+Instituto Federal de Educação, Ciência e Tecnologia Fluminense
+
+Agradecemos a todos que contribuíram para a
+realização deste trabalho e, em especial: ao IFF
+Campus Campos-Centro e seus professores, pela
+formação propiciada; à professora Simone
+Vasconcelos Silva pela orientação; aos colegas
+de turma, pelo companheirismo e amizade; à
+família, pelo carinho e incentivo; e, acima de
+tudo, a Deus.
+
+RESUMO
+
+A usabilidade influência na satisfação do usuário e pode determinar a adoção ou não de um
+sistema que apóie a tomada de decisões em diversos contextos. Considerando as
+especificidades dos Sistemas de Suporte à Decisão (SSD), a carência de instrumentos para
+avaliar a usabilidade deste tipo de sistema e a necessidade de avaliar o Mdecision (um SSD
+para ambiente Web) neste quesito, esta monografia aborda a elaboração de um modelo para
+avaliar a usabilidade a partir de recomendações de diversas normas, como ABNT ISO/IEC e
+do W3C. O modelo proposto abrange aspectos gerais e especificidades envolvidas na medição
+de atributos do SSD, além de uma função para obter indicador de usabilidade para cada
+atributo avaliado. Para validar este modelo, considerou-se um grupo de avaliadores composto
+por quatro desenvolvedores de software que avaliaram o Mdecision, cujos resultados
+apontaram itens a serem melhorados tanto no modelo quanto no objeto de avaliação.
+Palavras-chave: Qualidade de Software, Usabilidade, Sistemas de Suporte à Decisão.
+
+ABSTRACT
+
+Usability has effect on user satisfaction and it can determine whether or not to adopt a
+decision support system in different contexts. Given the specificities of Decision Support
+Systems (DSS), the lack of instruments to evaluate the usability of such systems, and the need
+to evaluate the Mdecision (a SSD to a Web environment) in this concern, this monograph
+discusses the development of a evaluation model for usability considering recommendations
+from various standards such as ISO / IEC, and W3C. The proposed model includes general
+and specific aspects involved in measuring attributes of SSD, and a function to obtain an
+indicator of usability for each attribute. To validate this model, it was considered a group of
+four evaluators composed by software developers that evaluated the Mdecision. The results
+showed items to be improved both in the model and in the evaluation object.
+Key words: quality of software, usability, Decision Support Systems.
+
+SUMÁRIO
+LISTA DE FIGURAS...............................................................................................................................................9
+LISTA DE GRÁFICOS..........................................................................................................................................10
+LISTA DE QUADROS...........................................................................................................................................11
+1INTRODUÇÃO....................................................................................................................................................10
+1.1CONTEXTO.................................................................................................................................10
+1.2OBJETIVOS E HIPÓTESES...............................................................................................................11
+1.3METODOLOGIA............................................................................................................................12
+1.4ORGANIZAÇÃO DA MONOGRAFIA....................................................................................................13
+2QUALIDADE DE SOFTWARE..........................................................................................................................14
+2.1CONCEITO..................................................................................................................................14
+2.2QUALIDADE DO PROCESSO............................................................................................................18
+2.3 QUALIDADE DO PRODUTO...........................................................................................................23
+2.4USABILIDADE .............................................................................................................................25
+2.5PADRÕES DE QUALIDADE PARA WEB..............................................................................................28
+2.6TRABALHOS RELACIONADOS.........................................................................................................31
+3PROCESSO DECISÓRIO E SOFWARE ............................................................................................................37
+3.1CONTEXTO HISTÓRICO.................................................................................................................37
+3.2TIPOS DE SOFTWARE ...................................................................................................................38
+3.3SISTEMAS DE SUPORTE À DECISÃO.................................................................................................39
+4 O MODELO DE AVALIAÇÃO PROPOSTO....................................................................................................41
+4.1DEFINIÇÃO.................................................................................................................................41
+4.2AVALIADORES.............................................................................................................................42
+4.3ATRIBUTOS.................................................................................................................................43
+4.4MÉTODO E UNIDADE DE MEDIÇÃO................................................................................................44
+4.5FUNÇÃO E INDICADOR DE USABILIDADE..........................................................................................45
+5ESTUDO DE CASO.............................................................................................................................................47
+5.1ESCOPO.....................................................................................................................................47
+5.2MDECISION.................................................................................................................................48
+5.3FORMULÁRIO .............................................................................................................................50
+5.4ANÁLISE DOS RESULTADOS ...........................................................................................................52
+6CONSIDERAÇÕES FINAIS E TRABALHOS FUTUROS................................................................................56
+REFERÊNCIAS......................................................................................................................................................58
+
+LISTA DE FIGURAS
+
+FIGURA 1 MODELO DE ANÁLISE INTEGRADA............................................................................................16
+FIGURA 2 MODELO DE INFORMAÇÃO DE MEDIÇÃO DA ISO/IEC 15939................................................17
+FIGURA 3 COMPONENTES DO MODELO MPS..............................................................................................22
+FIGURA 4 NÍVEIS DO MODELO MPS VS. NÍVEIS DO CMMI.......................................................................23
+FIGURA 5 PROBLEMAS DE USABILIDADE IDENTIFICADOS VS. QUANTIDADE DE AVALIADORES
+.................................................................................................................................................................................49
+FIGURA 6 DIAGRAMA DE CASOS DE USO DO MDECISION......................................................................51
+FIGURA 7 ESTRUTURA DO PROBLEMA NO MDECISION...........................................................................52
+FIGURA 8 FORMULÁRIO PARA DESENVOLVEDORES...............................................................................53
+
+LISTA DE GRÁFICOS
+
+GRÁFICO 1. PERCEPÇÃO DOS AVALIADORES.............................................................................................55
+GRÁFICO 2. DESEMPENHO MÉDIO VS. PESOS.............................................................................................55
+
+

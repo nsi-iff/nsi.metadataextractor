@@ -1,0 +1,195 @@
+KELLY CRISTIANNE PAMPLONA DE ASSIS
+
+Os desafios da escola diante das tecnologias de informação e comunicação: uma
+análise do Curso Técnico em Edificações (PROEJA) da Uned/Jataí – Cefet/Goiás
+(2008)
+
+Monografia apresentada ao Programa de Pós-Graduação
+lato sensu do Instituto Federal de Educação, Ciência e Tecnologia,
+para obtenção do grau de Especialista em Educação Profissional
+Integrada à Educação básica na Modalidade de Educação de Jovens e
+Adultos, aprovada em __07_/08___/_09__, pela banca examinadora
+constituída pelos seguintes professores:
+
+Profª. Drª Andréia Ferreira da Silva – UFG
+
+Prof. Dr. João Ferreira de Oliveira – UFG
+
+Profª. Drª. Maria Emilia de Castro Rodrigues - UFG
+
+RESUMO
+
+O presente trabalho tem como objetivo conhecer como os alunos dos segundo, terceiro e
+quinto períodos do curso de Edificações (Proeja), do então Centro Federal de Educação
+Tecnológica de Jataí, utilizam o computador e a internet. O trabalho foi realizado
+mediante pesquisa bibliográfica sobre o tema em estudo e também análise documental
+do Projeto Político-Pedagógico Institucional do Instituto Federal de Educação
+Tecnológica de Goiás e do Plano do Curso Técnico em Edificações na modalidade
+Proeja. Ainda foi realizada a aplicação de um questionário sobre as condições de uso,
+acesso e habilidades dos alunos no computador e na internet respectivamente. Por meio
+desse estudo pode-se observar que os alunos têm acesso a essas tecnologias e as
+utilizam para realizar pesquisas escolares e comunicar-se com colegas utilizando a
+internet. Entretanto, ainda não utilizam todo o potencial das novas tecnologias na escola
+e no trabalho. A escola precisa incentivar mais seus alunos durante as aulas para
+acessar o computador e a internet, capacitando os docentes e mostrando a eles o quanto
+as novas tecnologias podem auxiliar em suas aulas para torná-las mais dinâmicas e
+interessantes para os alunos.
+
+Palavras chave: Novas Tecnologias; Proeja; Curso Técnico em Edificações; Uned/Jataí.
+
+LISTA DE SIGLAS
+
+CEFET/GO – Centro Federal de Educação Tecnológica de Goiás
+CNE – Conselho Nacional de Educação
+CREA – Conselho Regional de Engenharia
+EJA – Educação de Jovens e Adultos
+EP – Educação Profissional
+IFET/ GO – Instituto Federal de Educação Tecnológica de Goiás
+LDB – Leis de Diretrizes e Base da Educação MEC – Ministério da Educação
+MSN – Messenger
+PROEJA – Programa Nacional de Integração da Educação Profissional à Educação
+Básica na Modalidade de Educação de Jovens e Adultos
+
+SUMÁRIO
+
+INTRODUÇÃO...............................................................................................................8
+CAPÍTULO I
+PROEJA:
+
+desafios
+
+da
+
+escola
+
+diante
+
+das
+
+tecnologias
+
+de
+
+informação
+
+e
+
+comunicação....................................................................................................................13
+
+CAPÍTULO II
+O uso do computador e da internet pelos alunos do Curso Técnico de Edificações Proeja da Uned/Jataí........................................................................................................26
+2.1 O curso de Edificações da Uned/Jataí e o uso do computador e da internet: uma
+análise..............................................................................................................................26
+2.2 Usos e habilidades dos alunos do Proeja Edificações da Uned/Jataí no computador e
+na internet........................................................................................................................32
+
+CONSIDERAÇÕES FINAIS.......................................................................................39
+
+REFERÊNCIAS............................................................................................................43
+
+APÊNDICE....................................................................................................................46
+QUESTIONÁRIO.........................................................................................................47
+
+INTRODUÇÃO
+
+A grande demanda pelos avanços tecnológicos tem influenciado e modificado o
+cotidiano dos seres humanos. Segundo Kenski (2007), Moran (2007) e Pretto (2001),
+atualmente, vive-se um novo momento tecnológico em que os meios de comunicação e
+informação têm avançado no contexto educacional e no mercado de trabalho.
+As inovações nos meios de comunicação têm avançado de forma muito rápida,
+aumentando sua presença e marcando, cada vez mais, a vida das pessoas. Essas
+inovações têm alterando comportamentos, mudando o modo de aquisição de
+informações e de construção do conhecimento. As novas tecnologias estão, de fato,
+presentes em todos os lugares, inclusive na escola, que de forma bastante dinâmica e
+acelerada tem recebido muitas máquinas modernas advindas do crescimento e dos
+avanços na tecnologia. Os alunos já não têm os mesmos costumes de tempos atrás, pois
+as mudanças quanto ao acesso às novas tecnologias ocorrem desde muito cedo.
+Atualmente, as crianças, em grande parte, têm acesso fácil ao computador e internet,
+com o passar dos tempos vão se tornando adolescentes e jovens, que têm mais comando
+das máquinas do que os adultos.
+É importante perceber que a educação não acontece apenas no espaço e no
+tempo da escola. As novas tecnologias aumentaram as possibilidades de ensinar e
+aprender, é necessário que a educação escolar consiga superar os desafios e perceba as
+possibilidades que as novas tecnologias carregam consigo. Segundo Galhardo (2008),
+
+as novas tecnologias já não se configuram apenas como ferramentas,
+máquinas presentes na vida das pessoas, a velocidade da
+comunicação, o acesso, a informação e a utilização de uma linguagem
+própria modificam as percepções e o modo de viver dos sujeitos a
+partir do momento em que mesmo inconscientemente, alteram-se
+comportamentos, processos de aquisição de informações e construção
+
+do conhecimento, possibilidades de comunicação (GALHARDO,
+2008, p. 9).
+
+Bovo (2002), afirma em seu artigo “O uso do computador na educação de jovens
+e adultos”, a importância da escola estar aberta às novas tecnologias e ser também um
+espaço de inclusão digital, de possibilitar aos alunos das classes sociais mais pobres
+financeiramente o acesso a esses recursos, tais como o computador e outras mídias.
+
+Um dos princípios pedagógicos bastante assimilados pelos professores
+da EJA é o da incorporação da cultura e da realidade dos alunos, como
+conteúdo e ponto de partida para as aulas. Somados a esses aspectos,
+lembra-se que a escola é um espaço propício para a educação da
+cidadania. A utilização do computador, parte da realidade do mundo
+do trabalho, na sala de aula, onde irá atuar como um instrumento
+facilitador e motivador da aprendizagem. Assim, acredita-se que o
+computador seja o instrumento que contribui, efetivamente, para
+superação das dificuldades na aprendizagem do aluno da EJA e
+auxilia-o na melhoria da qualificação para o trabalho. (BOVO, 2002,
+p. 108).
+
+Os conteúdos que geralmente são ensinados na educação de jovens e adultos são
+aqueles que têm a ver com a realidade do aluno, com o objetivo de que os alunos
+compreendam melhor o que será ministrado nas aulas, lembrando que o ambiente
+escolar é um local onde se forma cidadãos. O computador tem como função, nesse
+contexto, facilitar a aprendizagem dos docentes, contribuindo como um recurso que
+auxilia tanto para o apreender o conteúdo como para qualificar profissionalmente.
+
+Para Galhardo (2008), a formação docente, no contexto das novas tecnologias,
+mostra-se importante na tentativa de originar uma educação diferenciada no sentido de
+promover a formação integral, a formação humana e para a formação de sujeitos de
+direito que compreendam as relações sociais que permeiam a sociedade e nelas possam
+interferir de maneira ativa e consciente com o objetivo de criar uma sociedade mais
+justa. Além do exposto, deve preocupar-se com a formação de indivíduos capazes de
+analisar as intencionalidades presentes nas novas tecnologias e utilizá-las de acordo com
+as necessidades particulares a cada sociedade e não apenas como consumidores de
+tecnologias de informação e comunicação (GALHARDO, 2008).
+Diante da presença das novas tecnologias na escola e na vida dos alunos, surgiu
+de minha parte, a necessidade de estudar e compreender como os alunos do curso
+
+técnico em Edificações do Proeja da unidade do Centro Federal de Educação de Jataí/
+Goiás, que cursam o 2º, 3º e 5º períodos no ano 2008, lidam com as novas tecnologias
+de um modo geral, especificamente com o computador e a internet, e se esses recursos
+têm influenciado ou não na vida desses sujeitos. A partir dessa preocupação, o presente
+estudo buscou identificar os principais usos que esses alunos fazem do computador e da
+internet na escola e fora dela.
+A opção pela temática da monografia surgiu da observação de alunos do curso
+de técnico em Edificações do Cefet/Uned Jataí. Alguns alunos demonstravam estar
+familiarizados e ambientados com as novas tecnologias ao se corresponderem por email, utilizando o computador, enquanto outros demonstravam total desconhecimento e
+o não uso desses recursos. Ao concluir meu curso de especialização em Educação
+Profissional na Modalidade de Jovens e Adultos oferecido pelo Centro Federal de
+Educação Tecnológica de Goiás em parceria com a Faculdade de Educação da
+Universidade Federal de Goiás elegi essa temática como objeto de análise de minha
+monografia.
+O objetivo principal deste trabalho é identificar como os alunos relacionam-se
+com o computador e a internet e quais usos, os alunos do curso técnico em Edificações
+(Proeja), fazem desses recursos. Busca analisar se esses recursos influenciam na vida
+desses sujeitos.
+O presente estudo foi realizado mediante pesquisa bibliográfica, análise
+documental e aplicação de questionários aos alunos do segundo, terceiro e quinto
+períodos do curso Técnico em Edificações no ano de 2008.
+O trabalho utiliza como referenciais teóricos: Pretto (2002), Kenski (2003),
+Moran (2006) e Toschi (2002), dentre outros autores, que analisam a relação entre as
+novas tecnologias e educação. A discussão acerca das possibilidades do uso das novas
+tecnologias na EJA foi realizada a partir das contribuições de Coelho (2001), Bovo
+(2002), Franco (2002), Galhardo (2008), Coelho (2008), Cruz (2008) Ferreira (2008),
+Galera (2008) e Silva (2008).
+Além da pesquisa bibliográfica, o estudo desenvolveu-se mediante pesquisa
+documental que teve como objetivos estudar o Projeto Político-Pedagógico Institucional
+da Uned/Jataí (PPI) que está em construção. Esse projeto traz informações sobre a
+articulação entre educação, trabalho, ciência, tecnologia no currículo político
+pedagógico da instituição, apresenta um breve histórico sobre o Instituto Federal de
+Educação Tecnológica de Goiás (IFGOIÁS), das políticas públicas de educação e da
+
+

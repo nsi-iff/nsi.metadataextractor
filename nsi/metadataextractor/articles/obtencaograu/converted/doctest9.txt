@@ -1,0 +1,220 @@
+AGRADECIMENTOS
+Elisabelly Pessanha Áreas:
+Em primeiro lugar a Deus, meu amigo, por me permitir estar aqui e me ajudar a concretizar um dos
+meus sonhos. “... sem Ele nada do que se foi feito se fez.”Jo1: 3;
+A nossa Orientadora Profª. Aline Pires V. de Vasconcelos pelo incentivo e auxílio às atividades,
+discussões e várias correções desta monografia.
+Ao Helvio e a Renata por me aturarem ao longo do curso. Brincadeiras a parte, mas em vocês eu
+descobri grandes amigos que estiveram ao meu lado nas notas altas e baixas desses três anos.
+A minha mãe Eliana, por acreditar em mim e ao meu pai Sivaldo, pelos conselhos no momento em
+que pensei em desistir. A minha vovó amada Maria Isabel, que foi um exemplo de luta pela vida (in
+memorian). Ao meu avô Oracy, que me ajudou com algumas despesas durante o Curso. Aos
+demais familiares que contribuíram de alguma forma para eu concluir a minha Graduação. Aos
+professores participantes da banca avaliadora.
+
+Helvio Jerônimo Junior:
+As palavras ganham um novo sentido quando se tornam imprevisíveis, ganham uma nova vida
+quando inquietam o pensamento, mas há momentos, como este, em que nos sentimos
+desassossegados com as palavras porque se tornam insuficientes para dizer com elas o que
+queremos. Assim, ciente da limitação das palavras, aproveito para expressar os meus sinceros
+agradecimentos a todos aqueles que me acompanharam e que, de alguma forma, contribuíram com
+o seu saber científico e/ou dedicação pessoal para a concretização deste trabalho: Primeiramente
+agradeço a Deus, pois sem Ele nada do que foi feito seria possível. Obrigado Senhor por estar
+comigo a todo instante.
+A nossa Orientadora e agora amiga, Profª. Aline Pires V. de Vasconcelos pelos ensinamentos
+transmitidos, paciência e palavras de críticas e incentivo quando necessário.
+As minhas amigas, Elisabelly e Renata pelos incentivos, brincadeiras e toda a amizade que foi
+construída e que jamais será destruída. E a todos os amigos guerreiros deste curso.
+Aos meus pais, Helvio e Sebastiana que me ajudaram a chegar até aqui. Não posso deixar de
+destacar a minha mãe, pelas palavras de sabedoria, amor e apoio constantes. Aos meus irmãos,
+Natalia e Igor, pelo o amor e amizade infinita.
+Aos meus familiares, tios, tias, padrinhos e primos que sempre me ajudaram de alguma forma em
+particular.
+A todas as amizades construídas nesta caminhada. Aos professores Jonnathan Carvalho e Davi pela
+colaboração. E os professores participantes da banca avaliadora deste trabalho: Jonivan e Simone.
+
+Renata Aparecida Espano Nalim:
+Agradeço a Deus que é o responsável por tudo que tenho e que terei. Só através Dele posso
+alcançar meus objetivos. José Nalim e Maria Amélia, esses são meus pais, meus maiores
+professores. Meus pais me ensinaram o que chamo de algoritmo da vida, num loop infinito, onde
+devo estudar, batalhar, trabalhar e conseguir chegar onde quero com coragem e dedicação. Profª.
+Aline Pires V. de Vasconcelos por ser essa profissional dedicada, inteligente e humana. Saiba que
+para mim você se tornou um exemplo a seguir.
+Ao Helvio e a Elisabelly obrigada por me fazerem sentir essa coisa tão boa e abençoada que se
+chama amizade. Obrigada pela força e também pelas brincadeiras para descontrair ao longo de
+nosso estudo.
+Aos meus irmãos, amigos, colegas de trabalho, são tantas as pessoas especiais que contribuíram
+para a conclusão dessa etapa. E não posso esquecer dos Professores Jonnathan Carvalho que
+sempre esteve disposto a ajudar e a Professora Michelle Freitas por seus conselhos e palavras de
+otimismo. Agradeço também aos Professores da banca avaliadora.
+
+“Nem olhos viram, nem ouvidos ouviram, nem jamais chegou ao entendimento
+humano, o que Deus tem preparado para aqueles que o amam”.
+( I Coríntios 2:7-9)
+
+Aos meus pais, Eliana e Sivaldo.
+Aos meus Avôs, Oracy e Francisco.
+Elisabelly. P. Arêas
+Aos meus pais, Sebastiana e Helvio.
+Aos meus irmãos, Natália e Igor.
+Hélvio J. Júnior.
+Aos meus pais, José Nalim e Maria Amélia.
+Aos meus irmãos José Carlos e Marcos.
+Renata A. E. Nalim.
+
+RESUMO
+Este projeto visa à aplicação de técnicas de Reutilização de Software para a construção de
+um framework para o Domínio de Horário Escolar. A Reutilização de software visa o
+desenvolvimento a partir de artefatos pré-existentes, levando à melhora da qualidade e
+produtividade no desenvolvimento. As técnicas empregadas englobam a Engenharia de
+Domínio (ED), envolvendo principalmente a Análise de Domínio (AD), e princípios de
+frameworks, como determinação de seus pontos configuráveis (i.e. hot spots). A ED
+envolve o desenvolvimento de software para um domínio ou família de aplicações, onde a
+AD representa a sua primeira etapa e os frameworks a arquitetura do domínio. A
+montagem de Horário Escolar representa uma atividade que é realizada por todas as
+instituições de ensino, onde cada instituição realiza esta atividade de forma particular,
+porém com muitos aspectos em comum. Daí a escolha desse domínio para aplicar a
+Reutilização de Software. O domínio de Horário Escolar deve conter as informações
+necessárias para o gerenciamento de horários de turmas, professores e ambientes de
+aprendizagem. Através da AD, visa-se determinar aspectos comuns, opcionais e variáveis
+das atividades que são realizadas neste domínio. Para esta análise, três coordenações de
+curso foram entrevistadas, permitindo, dessa forma, o desenvolvimento de artefatos
+reutilizáveis de software. É utilizado o ambiente Odyssey de reutilização de software,
+desenvolvido pela COPPE/UFRJ, para apoiar o processo proposto, pois o desenvolvimento
+voltado à reutilização envolve maior esforço do que aquele voltado a uma aplicação
+específica.
+Palavras-chaves: Engenharia de Domínio (ED), Horário Escolar, Análise de Domínio
+(AD), Frameworks, Variabilidades e Opcionalidades.
+
+ABSTRACT
+This project involves the application of Software Reuse techniques in order to build a
+framework for the School Hour Schedules Domain. The reuse of software aims the
+development from pre-existing artifacts, leading to improved quality and productivity in
+software development. The employed techniques include Domain Engineering (DE),
+mainly involving Domain Analysis (DA), and principles of frameworks, such as the
+determination of their configurable points (i.e. hot spots). The DE involves the
+development of software for a domain or family of applications, where the DA is the first
+step and the frameworks define the domain architecture. The elaboration of School Hour
+Schedules is an activity that is performed by all educational institutions, where each
+institution performs this activity in a particular way, but with many points in common.
+Therefore this domain was chosen to implement the software reuse. The School Hour
+Schedules domain must contain the necessary information for managing schedules of
+classes, teachers and learning environments. Through the DA, it is possible to determine
+common, optional and variable aspects of activities that are performed in this domain. For
+this analysis, three course coordinations were interviewed, allowing thus the development
+of reusable software artifacts. The software reuse environment Odyssey developed at
+COPPE / UFRJ, is used to support the proposed process, since the development for reuse
+requires a greater effort than the one involving a specific application.
+Keywords: Domain Engineering (DE), School Hour Schedules, Domain Analysis (DA),
+Frameworks, Variabilities and Optionalities.
+
+LISTA DE SIGLAS
+
+AD
+
+Análise de Domínio
+
+CBD-Arch-DE
+
+Component Basead Development - Architecture – Domain Engineering
+
+DSSA
+
+Domain Specific Software Architectures
+
+EA
+
+Engenharia de Aplicação
+
+ED
+
+Engenharia de Domínio
+
+FeatureRSEB
+
+Reuse – Driven Software Engineering Business
+
+FEX
+
+Feature Extend
+
+FODA
+
+Fetaure Oriented Domain Analysis
+
+FORM
+
+Feature Oriented Reuse Method
+
+IFF
+
+Instituto Federal de Educação, Ciência e Tecnologia Fluminense
+
+LP
+
+Linha de Produto
+
+ODM
+
+Organization Domain Modeling
+
+PLP
+
+Product Line Practice
+
+RF
+
+Requisitos Funcionais
+
+SEI
+
+Software Engineering Institute
+
+UC’s
+
+Use Cases
+
+UML
+
+Unified Modeling Language
+
+VP
+
+Variant Point
+
+LISTA DE FIGURAS
+FIGURA 2.1 ATIVIDADES ESSENCIAIS EM LINHAS DE PRODUTOS................................................. 19
+FIGURA 2.2 CICLO DE VIDA NA ENGENHARIA DE DOMÍNIO (OLIVEIRA, 2006) ........................... 22
+FIGURA 2.3 FASES DA ENGENHARIA DE DOMÍNIO (UFPE, 2007) ..................................................... 23
+FIGURA 2.4 UM MODELO GENÉRICO DE DESENVOLVIMENTO PARA / COM REUSO
+(GUIZZARDI,2007) .............................................................................................................................. 25
+FIGURA 2.5 CARACTERÍSTICAS CONCEITUAIS E FUNCIONAIS NA NOTAÇÃO ODYSSEY-FEX 33
+FIGURA 2.6 PROPRIEDADES ORTOGONAIS DA NOTAÇÃO ODYSSEY-FEX ................................... 34
+FIGURA 3.1 DIAGRAMA DE CONTEXTOS DO DOMÍNIO DE HORÁRIO ESCOLAR NO AMBIENTE
+ODYSSEY ............................................................................................................................................. 45
+FIGURA 3.2 DIAGRAMA DE CARACTERÍSTICAS CONCEITUAIS DE CURSO.................................. 47
+FIGURA 3.3 DIAGRAMA DE CARACTERÍSTICAS DA MATRIZ CURRICULAR DOS CURSOS
+SUPERIORES E DO CURSO DE PÓS-GRADUAÇÃO...................................................................... 48
+FIGURA 3.4 CARACTERÍSTICAS DE CURSOS, MATRIZ CURRICULAR, PERÍODO E MÓDULO ... 49
+FIGURA 3.5 DIAGRAMA DE CARACTERÍSTICA DO SUBDOMÍNIO DE DISPONIBILIDADES DE
+PROFESSOR E COMPETÊNCIA ........................................................................................................ 51
+FIGURA 3.6 DIAGRAMA DE CARACTERÍSTICAS DE AMBIENTES DE APRENDIZADO ................ 52
+FIGURA 3.7 DIAGRAMA DE CARACTERÍSTICAS DO SUBDOMÍNIO DE CONTROLE DE HORÁRIO
+ESCOLAR ............................................................................................................................................. 54
+FIGURA 3.8 CARACTERÍSTICA CURSO E SUAS VARIANTES............................................................. 55
+FIGURA 3.9 DIAGRAMA DE CARACTERÍSTICAS DE PARTE DO DOMÍNIO DE HORÁRIO ........... 56
+FIGURA 3.10 OPÇÕES DE MAPEAMENTOS NO ODYSSEY .................................................................. 57
+FIGURA 3.11 DIAGRAMA DE CLASSES DE PARTE DO DOMÍNIO DE HORÁRIO ESCOLAR
+GERADO A PARTIR DAS CARACTERÍSTICAS CONCEITUAIS .................................................. 57
+FIGURA 3.12 DIAGRAMAS DE CLASSES DO FRAMEWORK ............................................................... 59
+FIGURA 3.13 DIAGRAMA DE CARACTERÍSTICAS FUNCIONAIS E DE ENTIDADES...................... 60
+FIGURA 3.14 WIZARD DE MAPEAMENTO DE CARACTERÍSTICAS FUNCIONAIS PARA CASOS
+DE USO NO AMBIENTE ODYSSEY.................................................................................................. 61
+FIGURA 3.15 DIAGRAMA DE CASOS DE USO ........................................................................................ 61
+FIGURA 3.16 CRIANDO UMA APLICAÇÃO BASEADA EM UM MODELO DE DOMÍNIO ................ 65
+FIGURA 3.17 SELECIONANDO CONTEXTOS.......................................................................................... 65
+FIGURA 3.18 SELECIONANDO AS CARACTERÍSTICAS QUE IRÃO COMPOR A APLICAÇÃO ...... 66
+FIGURA 3.19 MODELO DE DOMÍNIO PARA A ÁREA DE CONSTRUÇÃO CIVIL OBTIDO ATRAVÉS
+DA ENGENHARIA DE APLICAÇÃO................................................................................................. 67
+
+
