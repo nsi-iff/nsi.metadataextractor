@@ -12,8 +12,7 @@ class Parser(object):
         self.file_path = join(TEMPLATE_PATH, self.template_name)
         self.doc = ElementTree(file = self.file_path)
         
-    @property
-    def onepage_metadata(self):
+    def _onepage_metadata(self):
         self.onepage_dict = {}	
         page = {'page': int(self.doc.find('OnePage').attrib['page'])}
         self.onepage_dict.update(page)
@@ -30,8 +29,7 @@ class Parser(object):
                 self.onepage_dict.update({key: value})
         return self.onepage_dict
 		
-    @property
-    def variouspages_metadata(self):
+    def _variouspages_metadata(self):
         self.variouspages_dict = {}
         pages_parse = [(int(self.doc.find('VariousPages').attrib['startpage'])), (int(self.doc.find('VariousPages').attrib['endpage']))]
         pages = {'pages': pages_parse}
@@ -47,4 +45,11 @@ class Parser(object):
                 else:
                     value = value.split(',')    
                 self.variouspages_dict.update({key: value})
-        return self.variouspages_dict        
+        return self.variouspages_dict
+
+    def xml_template_metadata(self):
+        onepage_metadata = self._onepage_metadata()
+        variouspages_metadata = self._variouspages_metadata()
+        onepage_metadata.update(variouspages_metadata)
+        all_template_metadata = onepage_metadata
+        return all_template_metadata
