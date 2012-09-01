@@ -19,34 +19,46 @@ class TestParser(unittest.TestCase):
         self.tccParse.file_path |should| be_like(r'.*.xml')
 
     def test_onepage_metadata_has_a_valid_hash(self):
-        type(self.tccParse.onepage_metadata) |should| equal_to(dict)
+        type(self.tccParse._onepage_metadata()) |should| equal_to(dict)
 
     def test_onepage_metadata_hash_has_valid_keys_and_values(self):
-        metadata_hash = self.tccParse.onepage_metadata
+        onepage_metatada = self.tccParse._onepage_metadata()
         
-        metadata_hash.get("author_position") |should| equal_to (0)
-        metadata_hash.get("author_sucessor") |should| equal_to (['\n'])
-        metadata_hash.get("campus_validator") |should| equal_to (['campus', 'campi'])
-        metadata_hash.get("grade_doctoral") |should| equal_to (['DOUTORADO','DOUTOR'])
-        metadata_hash.get("grade_graduation") |should| equal_to (['GRADUAÇÃO', 'CURSO SUPERIOR', 'BACHARELADO', 'LICENCIATURA', 'TECNÓLOGO'])
-        metadata_hash.get("grade_master_degree") |should| equal_to (['MESTRADO', 'MESTRE'])
-        metadata_hash.get("grade_postdoctoral") |should| equal_to (['PÓS-DOUTORADO', 'PÓS DOUTORADO'])
-        metadata_hash.get("grade_spec") |should| equal_to (['PÓS-GRADUAÇÃO', 'LATO SENSU', 'ESPECIALIZAÇÃO', 'ESPECIALISTA', 'MBA'])
-        metadata_hash.get("institution_antecessor") |should| equal_to (['universidade', 'instituto'])
-        metadata_hash.get("page") |should| equal_to (2)
-        metadata_hash.get("title_antecessor") |should| equal_to (['\n'])
-        metadata_hash.get("title_sucessor") |should| equal_to (['\n'])
-        metadata_hash.get("author_breaker") |should| equal_to (['orientador:','orientadora:','co-orientador:','co-orientadora:','prof.','profa.'])
+        onepage_metatada.get("author_position") |should| equal_to (0)
+        onepage_metatada.get("author_sucessor") |should| equal_to (['\n'])
+        onepage_metatada.get("campus_validator") |should| equal_to (['campus', 'campi'])
+        onepage_metatada.get("grade_doctoral") |should| equal_to (['DOUTORADO','DOUTOR'])
+        onepage_metatada.get("grade_graduation") |should| equal_to (['GRADUAÇÃO', 'CURSO SUPERIOR', 'BACHARELADO', 'LICENCIATURA', 'TECNÓLOGO'])
+        onepage_metatada.get("grade_master_degree") |should| equal_to (['MESTRADO', 'MESTRE'])
+        onepage_metatada.get("grade_postdoctoral") |should| equal_to (['PÓS-DOUTORADO', 'PÓS DOUTORADO'])
+        onepage_metatada.get("grade_spec") |should| equal_to (['PÓS-GRADUAÇÃO', 'LATO SENSU', 'ESPECIALIZAÇÃO', 'ESPECIALISTA', 'MBA'])
+        onepage_metatada.get("institution_antecessor") |should| equal_to (['universidade', 'instituto'])
+        onepage_metatada.get("page") |should| equal_to (2)
+        onepage_metatada.get("title_antecessor") |should| equal_to (['\n'])
+        onepage_metatada.get("title_sucessor") |should| equal_to (['\n'])
+        onepage_metatada.get("title_breaker") |should| equal_to (['monografia'])
+        onepage_metatada.get("author_residue") |should| equal_to (['orientador:', 'orientadora:', 'co-orientador:', 'co-orientadora:', 
+            'prof.', 'profa.', 'reitora:', 'pr\xc3\xb3-reitora:', 'reitora', 'pr\xc3\xb3-reitora', 'dra.', 'dr.', 'instituto', 
+            'universidade'])
 
     def test_variouspages_metadata_has_a_valid_hash(self):
-        type(self.tccParse.onepage_metadata) |should| equal_to(dict)
+        type(self.tccParse._onepage_metadata()) |should| equal_to(dict)
 
     def test_variouspages_metadata_hash_has_valid_keys_and_values(self):
-        metadata_hash = self.tccParse.variouspages_metadata
+        variouspages_metatada = self.tccParse._variouspages_metadata()
 
-        metadata_hash.get("abstract_antecessor") |should| equal_to (['RESUMO\n'])
-        metadata_hash.get("abstract_sucessor") |should| equal_to (['\n'])
-        metadata_hash.get("pages") |should| equal_to ([4, 10])
+        variouspages_metatada.get("abstract_antecessor") |should| equal_to (['RESUMO\n'])
+        variouspages_metatada.get("abstract_sucessor") |should| equal_to (['\n'])
+        variouspages_metatada.get("pages") |should| equal_to ([4, 10])
+
+    def test_merge_all_template_metadata_into_one_dict(self):
+        onepage_metatada = self.tccParse._onepage_metadata()
+        variouspages_metatada = self.tccParse._variouspages_metadata()
+        xml_template_metadata = self.tccParse.xml_template_metadata()
+        xml_template_metadata.keys() |should| equal_to(['grade_postdoctoral', 'title_antecessor', 
+            'author_residue', 'grade_master_degree', 'abstract_antecessor', 'grade_graduation', 
+            'pages', 'campus_validator', 'institution_antecessor', 'author_position', 'title_sucessor', 
+            'abstract_sucessor', 'author_sucessor', 'grade_spec', 'grade_doctoral', 'page', 'title_breaker'])
 
 
 if __name__ == '__main__':
