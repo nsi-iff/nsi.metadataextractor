@@ -3,7 +3,7 @@
     <OnePage page = "2">
         <metadata id = "author">
             <position type = "general">0</position>
-            <breaker type = "general">orientador:,orientadora:,co-orientador:,co-orientadora:,prof.,profa.</breaker>
+            <residue type = "general">orientador:,orientadora:,co-orientador:,co-orientadora:,prof.,profa.,reitora:,pró-reitora:,reitora,pró-reitora,dra.,dr.,instituto,universidade</residue>
             <sucessor type = "word">\n</sucessor>
         </metadata>
         <metadata id = "institution">
@@ -20,6 +20,7 @@
             <postdoctoral type = "palavra">PÓS-DOUTORADO,PÓS DOUTORADO</postdoctoral>    
         </metadata>
         <metadata id = "title">
+            <breaker type="general">monografia</breaker>
             <antecessor type = "empty line">\n</antecessor>
             <sucessor type = "empty line">\n</sucessor>
         </metadata>
