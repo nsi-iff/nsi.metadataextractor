@@ -19,8 +19,10 @@ setup(name='nsi.metadataextractor',
       zip_safe=False,
       install_requires=[
         "should_dsl",
+        "lxml",
+        "specloud",
       ],
-      entry_points="""
-      # -*- Entry points: -*-
-      """,
+      entry_points = {
+            'console_scripts': ['extract_metadata = nsi.metadataextractor.cmdline:main'],
+        },
       )
