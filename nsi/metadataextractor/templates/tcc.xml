@@ -3,21 +3,21 @@
     <OnePage page = "2">
         <metadata id = "author">
             <position type = "general">0</position>
-            <residue type = "general">orientador:,orientadora:,co-orientador:,co-orientadora:,prof.,profa.,reitora:,pró-reitora:,reitora,pró-reitora,dra.,dr.,instituto,universidade</residue>
+            <residue type = "general">orientador,orientadora,co-orientador,co-orientadora,prof.,profa.,reitora:,pró-reitora:,reitora,pró-reitora,dra.,dr.,instituto,universidade</residue>
             <sucessor type = "word">\n</sucessor>
         </metadata>
         <metadata id = "institution">
-            <antecessor type = "word">universidade,instituto</antecessor>
+            <validator type = "word">universidade,instituto</validator>
         </metadata>
         <metadata id = "campus">
             <validator type = "palavra">campus,campi</validator>
         </metadata>
         <metadata id = "grade">
-            <graduation type = "palavra">GRADUAÇÃO,CURSO SUPERIOR,BACHARELADO,LICENCIATURA,TECNÓLOGO</graduation>
-            <spec type = "palavra">PÓS-GRADUAÇÃO,LATO SENSU,ESPECIALIZAÇÃO,ESPECIALISTA,MBA</spec>
-            <master_degree type = "palavra">MESTRADO,MESTRE</master_degree>
-            <doctoral type = "palavra">DOUTORADO,DOUTOR</doctoral>
-            <postdoctoral type = "palavra">PÓS-DOUTORADO,PÓS DOUTORADO</postdoctoral>    
+            <graduation type = "palavra">graduação,curso superior,bacharelado,licenciatura,tecnólogo</graduation>
+            <spec type = "palavra">pós-graduação,lato sensu,especialização,especialista,mba</spec>
+            <master_degree type = "palavra">mestrado,mestre</master_degree>
+            <doctoral type = "palavra">doutorado,doutor</doctoral>
+            <postdoctoral type = "palavra">pós doutorado,pós-doutorado</postdoctoral>    
         </metadata>
         <metadata id = "title">
             <breaker type="general">monografia</breaker>
