@@ -15,7 +15,7 @@ class TestPreparation(unittest.TestCase):
 
 	def setUp(self):
 		self.parse = Parser('tcc.xml')
-		self.doc_dir = '/Users/osw/nsi.metadataextractor/nsi/metadataextractor/articles/obtencaograu/doctest1.pdf'
+		self.doc_dir = join(ROOT_PATH, 'testdocs', 'obtencaograu', 'doctest1.pdf')
 		self.preparator = Preparator(self.doc_dir)
 		self.xml_template_metadata = self.parse.xml_template_metadata()
 	
@@ -61,7 +61,7 @@ class TestPreparation(unittest.TestCase):
 class TestTccExtractor(unittest.TestCase):
 
 	def setUp(self):
-		self.doc_dir = '/Users/osw/nsi.metadataextractor/nsi/metadataextractor/articles/obtencaograu/doctest1.pdf'
+		self.doc_dir = join(ROOT_PATH, 'testdocs', 'obtencaograu', 'doctest1.pdf')
 		self.preparator = Preparator(self.doc_dir)
 		self.extractor = TccExtractor(self.doc_dir)
 		self.parse = Parser('tcc.xml')

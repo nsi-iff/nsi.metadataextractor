@@ -4,12 +4,12 @@ Tests:
 
 >>> make run_unit_test
 
-Using:
 
-Course conclusion works - *.pdf files
+
+- Course Conclusion Documents (TCC) - Working w/ .pdf files
+Example:
 
 >>> from nsi.metadataextractor.extractor import TccExtractor
->>> tccExtract = TccExtractor('doctest1')
+>>> path = '/Users/osw/Desktop/doctest.pdf'
+>>> tccExtract = TccExtractor(path)
 >>> tccExtract.all_metadata()
-
-Documents on ~/nsi.metadataextractor/nsi/metadataextractor/articles/obtencaograu

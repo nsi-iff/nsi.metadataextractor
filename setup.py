@@ -1,15 +1,15 @@
 from setuptools import setup, find_packages
 import sys, os
 
-version = '0.0.1'
+version = '1.0.0'
+readme = open('README.rst').read()
 
 setup(name='nsi.metadataextractor',
       version=version,
       description="A template-based metadata extractor.",
-      long_description="""\
-""",
+      long_description=readme,
       classifiers=[], # Get strings from http://pypi.python.org/pypi?%3Aaction=list_classifiers
-      keywords='',
+      keywords='metadata extraction python',
       author='Oswaldo Ferreira',
       author_email='oswluizf@gmail.com',
       url='',
@@ -21,6 +21,7 @@ setup(name='nsi.metadataextractor',
         "should_dsl",
         "lxml",
         "specloud",
+        "nltk"
       ],
       entry_points = {
             'console_scripts': ['extract_metadata = nsi.metadataextractor.cmdline:main'],
