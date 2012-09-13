@@ -118,17 +118,36 @@ class TccExtractor(object):
             self.abstract += self._linetokenized_variouspages_raw_doc[abstract_position]
             abstract_position += 1
         return self.abstract
-        
 
+    def _grade_metadata(self):
+        temp_grade_level = 0
+        doc = self._raw_onepage_doc.replace('\n', ' ')
+        self.grade_references = {('Graduação', 1):      self._template_metadata['grade_graduation'],
+                                 ('Especialização', 2): self._template_metadata['grade_spec'],
+                                 ('Mestrado', 3):       self._template_metadata['grade_master_degree'],
+                                 ('Doutorado', 4):      self._template_metadata['grade_doctoral'],
+                                 ('Pós-Doutorado', 5):  self._template_metadata['grade_postdoctoral']
+                                 }
+        for grade in self.grade_references.iterkeys():
+            grade_type, grade_level = grade
+            for grade_name in self.grade_references[grade]:
+                if grade_name in doc and grade_level > temp_grade_level:
+                    temp_grade_level = grade_level
+                    self.grade = grade_type
+                    break
+        return self.grade
 
     def all_metadata(self):
         metadata = {'author_metadata':      self._author_metadata(),
+                    'grade_metadata':       self._grade_metadata(),
                     'title_metadata':       self._title_metadata(),
                     'institution_metadata': self._institution_metadata(),
                     'campus_metadata':      self._campus_metadata(),
                     'abstract_metadata':    self._abstract_metadata(),
                     }
-        self._preparator.remove_converted_document()
-        return metadata
-        
+        try:
+            self._preparator.remove_converted_document()
+        except OSError:
+            print 'Temporary document already removed..'
 
+        return metadata
