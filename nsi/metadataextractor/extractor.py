@@ -2,6 +2,7 @@
 from os import system, remove
 from os.path import abspath, dirname, join, basename, splitext
 from string import punctuation
+from pyPdf import PdfFileReader
 from nltk.corpus import PlaintextCorpusReader
 from nltk.tokenize import line_tokenize, word_tokenize
 from xml_parser import Parser
@@ -103,6 +104,10 @@ class TccExtractor(object):
                     self.campus = campus.title()
                     break
         return self.campus
+    
+    def _embed_metadata(self):
+        embed_metadata = PdfFileReader(file("%s.pdf" %self.doc_dir, "rb"))
+        return embed_metadata
         
     def _abstract_metadata(self):
         self.abstract = ''
@@ -144,10 +149,10 @@ class TccExtractor(object):
                     'institution_metadata': self._institution_metadata(),
                     'campus_metadata':      self._campus_metadata(),
                     'abstract_metadata':    self._abstract_metadata(),
+                    'number_pages':         self._embed_metadata.numPages(),
                     }
         try:
             self._preparator.remove_converted_document()
         except OSError:
             print 'Temporary document already removed..'
-
         return metadata
