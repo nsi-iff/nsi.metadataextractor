@@ -21,7 +21,8 @@ setup(name='nsi.metadataextractor',
         "should_dsl",
         "lxml",
         "specloud",
-        "nltk"
+        "nltk",
+        "pyPdf"
       ],
       entry_points = {
             'console_scripts': ['extract_metadata = nsi.metadataextractor.cmdline:main'],
