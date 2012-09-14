@@ -14,7 +14,7 @@
         </metadata>
         <metadata id = "grade">
             <graduation type = "palavra">graduação,curso superior,bacharelado,licenciatura,tecnólogo</graduation>
-            <spec type = "palavra">pós-graduação,lato sensu,especialização,especialista,mba</spec>
+            <spec type = "palavra">pós graduação,pós-graduação,lato sensu,especialização,especialista,mba</spec>
             <master_degree type = "palavra">mestrado,mestre</master_degree>
             <doctoral type = "palavra">doutorado,doutor</doctoral>
             <postdoctoral type = "palavra">pós doutorado,pós-doutorado</postdoctoral>    
