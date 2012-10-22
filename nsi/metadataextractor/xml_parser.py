@@ -31,20 +31,24 @@ class Parser(object):
 		
     def _variouspages_metadata(self):
         self.variouspages_dict = {}
-        pages_parse = [(int(self.doc.find('VariousPages').attrib['startpage'])), (int(self.doc.find('VariousPages').attrib['endpage']))]
-        pages = {'pages': pages_parse}
-        self.variouspages_dict.update(pages)
-        for elem in self.doc.iterfind('VariousPages/metadata'):
-            for sub_elem in list(elem):
-                key = elem.attrib['id'] + '_' + sub_elem.tag
-                value = sub_elem.text.encode('utf-8')
-                if value.isdigit():
-                    value = int(value)
-                elif '\\n' in value:
-                    value = value.replace('\\n', '\n').split(',')
-                else:
-                    value = value.split(',')    
-                self.variouspages_dict.update({key: value})
+        various_pages = self.doc.find('VariousPages')
+        if various_pages is not None:
+            first_page = int(self.doc.find('VariousPages').attrib['startpage'])
+            end_page = int(self.doc.find('VariousPages').attrib['endpage'])
+            pages_parse = [first_page, end_page]
+            pages = {'pages': pages_parse}
+            self.variouspages_dict.update(pages)
+            for elem in self.doc.iterfind('VariousPages/metadata'):
+                for sub_elem in list(elem):
+                    key = elem.attrib['id'] + '_' + sub_elem.tag
+                    value = sub_elem.text.encode('utf-8')
+                    if value.isdigit():
+                        value = int(value)
+                    elif '\\n' in value:
+                        value = value.replace('\\n', '\n').split(',')
+                    else:
+                        value = value.split(',')    
+                    self.variouspages_dict.update({key: value})
         return self.variouspages_dict
 
     def xml_template_metadata(self):

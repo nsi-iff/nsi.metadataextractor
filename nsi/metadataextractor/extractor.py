@@ -171,7 +171,6 @@ class EventExtractor(object):
         page = self._template_metadata['page']
         self._preparator = Preparator(doc_dir)
         self._raw_onepage_doc = self._preparator.pdf_to_raw_text(page, page)
-        self._html_onepage_doc = self._preparator.pdf_to_html(page, page)
         self._linetokenized_onepage_doc = line_tokenize(self._raw_onepage_doc)
         self._clean_onepage_doc = self._raw_onepage_doc.replace('\n', ' ')
         self._pdf_embed_metadata = self._preparator.pdf_embed_metadata()
@@ -183,15 +182,15 @@ class EventExtractor(object):
         residues = self._template_metadata['author_residue']
         name_corpus = self._preparator.parse_corpus('names') 
         abnt_name = re.compile(r'(\w[.]\s)*(\w+[;])')
+        has_only_email = False
         for line in self._linetokenized_onepage_doc:
             has_breaker = re.match(breaker, line)
             if has_breaker: break
             line_mod = set(word_tokenize(line))
             has_corpus_common = bool(line_mod.intersection(name_corpus))
             has_residue = bool(line_mod.intersection(residues))
-            has_email = self._email_regex.search(line)
-            has_corpus_common_and_email = has_corpus_common and has_email
-            if (has_corpus_common and not has_residue) or (has_corpus_common_and_email and not has_residue):
+            find_email = self._email_regex.search(line)
+            if has_corpus_common and not has_residue:
                 self.authors.append(line)
         if not self.authors:
             clean_onepage_doc = self._clean_onepage_doc

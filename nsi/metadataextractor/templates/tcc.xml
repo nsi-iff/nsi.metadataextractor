@@ -2,9 +2,7 @@
 <root>
     <OnePage page = "2">
         <metadata id = "author">
-            <position type = "general">0</position>
             <residue type = "general">orientador,orientadora,co-orientador,co-orientadora,prof.,profa.,reitora:,pró-reitora:,reitora,pró-reitora,dra.,dr.,instituto,universidade</residue>
-            <sucessor type = "word">\n</sucessor>
         </metadata>
         <metadata id = "institution">
             <validator type = "word">universidade,instituto</validator>
@@ -25,11 +23,7 @@
             <sucessor type = "empty line">\n</sucessor>
         </metadata>
     </OnePage>
-    <VariousPages startpage = "4" endpage = "10">
-        <metadata id = "abstract">
-            <antecessor type = "word">RESUMO\n</antecessor>
-            <sucessor type = "word">\n</sucessor>
-        </metadata>
+    <VariousPages startpage = "2" endpage = "10">
     </VariousPages>
 </root>
         

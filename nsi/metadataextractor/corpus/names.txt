@@ -915,6 +915,7 @@ dalmácio
 dalmiro
 daltivo
 dalton
+dalessandro
 damaceno
 damasceno
 damásio
@@ -3120,6 +3121,7 @@ sófocles
 sofonias
 sofrônio
 solano
+soares
 soleon
 solimão
 solomão
@@ -5926,6 +5928,7 @@ vergínia
 veridiana
 verônica
 viana
+vianna
 victória
 vidya
 vilma

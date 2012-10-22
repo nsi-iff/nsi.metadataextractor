@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+	<OnePage page = "1">
+    	<metadata id = "author">
+            <breaker type="general">resumo</breaker>
+        	<residue type = "general">apoio,e-mail,rua,bairro,cep,avenida,universidade</residue>
+    	</metadata>
+    	<metadata id = "title">
+    		<breaker type = "word">resumo,autores</breaker>
+    	</metadata>
+	</OnePage>
+</root>
