@@ -1,0 +1,2 @@
+recursive-include nsi/metadataextractor/corpus *.txt
+recursive-include nsi/metadataextractor/templates *.xml
