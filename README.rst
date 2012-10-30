@@ -1,17 +1,15 @@
-Working on ~/nsi.metadataextractor:
+- Running on specloud
+>>> sudo make all
+## Testing and installing..
 
-Tests:
+- Tagging Course Conclusion and Event Documents Metadata (PDF Files)
 
->>> make run_unit_test
+Terminal example:
 
+### TCC Document ~>
+extract_metadata ~/Documents/tccdocument.pdf -t tcc
 
-- Course Conclusion (TCC) and Event Documents - Working w/ .pdf files
-Example:
+### Event Document ~>
+extract_metadata ~/Documents/eventdocument.pdf -t event
 
->>> from nsi.metadataextractor.extractor import TccExtractor, EventExtractor
->>> path = '/Users/osw/Desktop/doctest.pdf'
->>> tccExtract = TccExtractor(path)
->>> tccExtract.all_metadata()
->>> eventExtract = EventExtractor(path)
->>> eventExtract.all_metadata()
 
