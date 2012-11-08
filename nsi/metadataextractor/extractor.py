@@ -97,9 +97,10 @@ class TccExtractor(object):
             line_mod = self._title_doc[title_index].split()
             has_breaker = bool(set(line_mod).intersection(breakers))
             if not has_breaker:
-                self.title += self._title_doc[title_index]
+                self.title += self._title_doc[title_index].replace(self.linebreak, ' ')
             else: break
-        return self._title_doc
+        self.title = self.title.strip().capitalize()
+        return self.title
 
     def _institution_metadata(self):
         self.institution = 'Instituto Federal de Educação Ciência e Tecnologia '
