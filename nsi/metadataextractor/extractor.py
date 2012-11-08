@@ -4,8 +4,6 @@ from os import system, remove
 from os.path import abspath, dirname, join, basename, splitext
 from string import punctuation
 from pyPdf import PdfFileReader
-from BeautifulSoup import BeautifulSoup
-from nltk.util import clean_html
 from nltk.corpus import PlaintextCorpusReader
 from nltk.tokenize import line_tokenize, word_tokenize
 from xml_parser import Parser
@@ -20,20 +18,13 @@ class Preparator(object):
         self.temp_text_doc = ('%s.txt' %self.doc_name)
         self.temp_html_doc = ('%ss.html' %self.doc_name)
         
-
     def pdf_to_raw_text(self, page1, page2):
         system("pdftotext -enc UTF-8 -f %i -l %i %s.pdf %s.txt"
             %(page1, page2, self.doc_dir, self.doc_dir))
-        raw_text = PlaintextCorpusReader(dirname(self.doc_dir), self.temp_text_doc).raw().lower()
-        self.raw_text = re.sub(r'[0-9]', '', raw_text)
+        raw_text = PlaintextCorpusReader(dirname(self.doc_dir), self.temp_text_doc).raw()
+        encoded_lowertext = raw_text.decode('utf-8').lower().encode('utf-8')
+        self.raw_text = re.sub(r'[0-9]', '', encoded_lowertext)
         return self.raw_text
-
-    def pdf_to_html(self, page1, page2):
-        system("pdftohtml -f %i -l %i %s.pdf %s"
-            %(page1, page2, self.doc_dir, self.doc_dir))
-        html_path = join((dirname(self.doc_dir)), self.temp_html_doc)
-        self.html = open(html_path, "r").read().lower()
-        return self.html
 
     def remove_converted_document(self):
         remove('%s.txt' %self.doc_dir)
@@ -67,34 +58,48 @@ class TccExtractor(object):
         self._linetokenized_onepage_doc = line_tokenize(self._raw_onepage_doc)
         self._wordtokenized_onepage_doc = [w for w in word_tokenize(self._raw_onepage_doc) if w not in list(punctuation)]
         self._pdf_embed_metadata = self._preparator.pdf_embed_metadata()
-
+        self.linebreak = "\n"
 
     def _author_metadata(self):
         self.authors = []
         name_corpus = self._preparator.parse_corpus('names')
         residues = self._template_metadata['author_residue']
+        breakers = self._template_metadata['author_breaker']
         for line in self._linetokenized_onepage_doc:
             line_mod = set(word_tokenize(line))
             corpus_common = bool(line_mod.intersection(name_corpus))
-            residue = bool(line_mod.intersection(residues))
-            if corpus_common and not residue:
+            has_residue = bool(line_mod.intersection(residues))
+            has_breaker = bool(line_mod.intersection(breakers))
+            if corpus_common and not has_residue:
                 self.authors.append(line.title())
+            elif has_breaker: break
         return self.authors
+
+    def _title_start_point(self):
+        self._title_doc = []
+        for line in self._linetokenized_onepage_raw_doc:
+            self._title_doc.append(line.decode('utf-8').lower().encode('utf-8'))
+        authors = self._author_metadata()
+        if authors:
+            last_author_index = self._title_doc.index(authors[-1].lower() + self.linebreak)
+        nextline = last_author_index + 1
+        ## Verify line after last author
+        if self._title_doc[nextline] == self.linebreak: 
+            title_start_point = nextline + 1
+        else: title_start_point = last_author_index
+        return title_start_point
 
     def _title_metadata(self):
         self.title = ''
-        title_antecessor = self._template_metadata['title_antecessor'][0]
-        title_sucessor = self._template_metadata['title_sucessor'][0]
+        title_start_point = self._title_start_point()
         breakers = self._template_metadata['title_breaker']
-        first_line = self._linetokenized_onepage_raw_doc.index(title_antecessor) + 1
-        doc_range = len(self._linetokenized_onepage_raw_doc)
-        for title_type_metadata_index in range(first_line, doc_range):
-            line_mod = set(word_tokenize(self._linetokenized_onepage_raw_doc[title_type_metadata_index]))
-            breaker = bool(line_mod.intersection(breakers))
-            if self._linetokenized_onepage_raw_doc[title_type_metadata_index] != title_sucessor and not breaker:
-                self.title += self._linetokenized_onepage_raw_doc[title_type_metadata_index].replace('\n',' ')
+        for title_index in range(title_start_point, len(self._title_doc)):
+            line_mod = self._title_doc[title_index].split()
+            has_breaker = bool(set(line_mod).intersection(breakers))
+            if not has_breaker:
+                self.title += self._title_doc[title_index]
             else: break
-        return self.title.strip()
+        return self._title_doc
 
     def _institution_metadata(self):
         self.institution = 'Instituto Federal de Educação Ciência e Tecnologia '
@@ -160,7 +165,6 @@ class TccExtractor(object):
         except OSError:
             print 'Temporary document already removed..'
         return metadata
-
 
 
 class EventExtractor(object):        
