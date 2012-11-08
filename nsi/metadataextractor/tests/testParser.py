@@ -20,7 +20,7 @@ class TestParser(unittest.TestCase):
 
     def tes_tcc_onepage_metadata_hash_has_valid_keys_and_values(self):
         onepage_parser = self.tccParse._onepage_metadata() 
-        "author_residue", "institution_validator", "campus_validator",
+        "author_residue", "author_breaker", "institution_validator", "campus_validator",
         "grade_graduation", "grade_spec", "grade_master_degree", "grade_doctoral" 
         "grade_postdoctoral" |should| be_into(onepage_parser.keys())
         for key in onepage_parser.keys():

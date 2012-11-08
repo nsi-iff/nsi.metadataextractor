@@ -32,7 +32,7 @@ class TestPreparation(unittest.TestCase):
 		self.preparator.temp_text_doc |should| be_into(documents)
 
 	def test_name_corpus_has_a_certain_quantity_of_names(self):
-		len(self.preparator.parse_corpus('names')) |should| equal_to(6289)
+		len(self.preparator.parse_corpus('names')) |should| equal_to(6294)
 
 	def test_temporary_text_files_is_being_removed(self):
 		page = self.xml_template_metadata['page']
