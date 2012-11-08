@@ -2,7 +2,8 @@
 <root>
     <OnePage page = "2">
         <metadata id = "author">
-            <residue type = "general">orientador,orientadora,co-orientador,co-orientadora,prof.,profa.,reitora:,pró-reitora:,reitora,pró-reitora,dra.,dr.,instituto,universidade</residue>
+            <residue type = "general">orientador,orientadora,co-orientador,co-orientadora,prof.,profa.,reitora:,pró-reitora:,reitora,pró-reitora,dra.,dr.,instituto,universidade,-</residue>
+            <breaker type="general">monografia,trabalho</breaker>
         </metadata>
         <metadata id = "institution">
             <validator type = "word">universidade,instituto</validator>
@@ -18,9 +19,7 @@
             <postdoctoral type = "palavra">pós doutorado,pós-doutorado</postdoctoral>    
         </metadata>
         <metadata id = "title">
-            <breaker type="general">monografia</breaker>
-            <antecessor type = "empty line">\n</antecessor>
-            <sucessor type = "empty line">\n</sucessor>
+            <breaker type="general">monografia,trabalho,\n,-</breaker>
         </metadata>
     </OnePage>
     <VariousPages startpage = "2" endpage = "10">
