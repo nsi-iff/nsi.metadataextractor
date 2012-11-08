@@ -1,7 +1,7 @@
 PYTHON=python
 SPECLOUD=specloud
 
-all: install run_unit_test
+all: run_unit_test install
 
 install:
 	${PYTHON} setup.py install
