@@ -16,11 +16,11 @@ class Preparator(object):
         self.doc_dir, self.doc_ext = splitext(doc_dir)
         self.doc_name = basename(self.doc_dir)
         self.temp_text_doc = ('%s.txt' %self.doc_name)
-        self.temp_html_doc = ('%ss.html' %self.doc_name)
         
-    def pdf_to_raw_text(self, page1, page2):
-        system("pdftotext -enc UTF-8 -f %i -l %i %s.pdf %s.txt"
-            %(page1, page2, self.doc_dir, self.doc_dir))
+    def raw_text_convertion(self, page1, page2):
+        if self.doc_ext == '.pdf':
+            system("pdftotext -enc UTF-8 -f %i -l %i %s.pdf %s.txt"
+                %(page1, page2, self.doc_dir, self.doc_dir))
         raw_text = PlaintextCorpusReader(dirname(self.doc_dir), self.temp_text_doc).raw()
         encoded_lowertext = raw_text.decode('utf-8').lower().encode('utf-8')
         self.raw_text = re.sub(r'[0-9]', '', encoded_lowertext)
@@ -41,7 +41,7 @@ class Preparator(object):
     def pdf_embed_metadata(self):
         embed_metadata = PdfFileReader(file("%s.pdf" %self.doc_dir, "rb"))
         return embed_metadata
-
+        
 
 class TccExtractor(object):
 
@@ -51,14 +51,14 @@ class TccExtractor(object):
         page = self._template_metadata['page']
         pages = self._template_metadata['pages']
         self._preparator = Preparator(doc_dir)
-        self._raw_onepage_doc = self._preparator.pdf_to_raw_text(page, page)
+        self._raw_onepage_doc = self._preparator.raw_text_convertion(page, page)
+        self._raw_variouspages_doc = self._preparator.raw_text_convertion(pages[0], pages[1])
         self._linetokenized_onepage_raw_doc = open('%s.txt' %self._preparator.doc_dir).readlines()
-        self._raw_variouspages_doc = self._preparator.pdf_to_raw_text(pages[0], pages[1])
         self._clean_variouspages_doc = self._raw_variouspages_doc.replace('\n', ' ')
         self._linetokenized_onepage_doc = line_tokenize(self._raw_onepage_doc)
         self._wordtokenized_onepage_doc = [w for w in word_tokenize(self._raw_onepage_doc) if w not in list(punctuation)]
-        self._pdf_embed_metadata = self._preparator.pdf_embed_metadata()
         self.linebreak = "\n"
+
 
     def _author_metadata(self):
         self.authors = []
@@ -129,7 +129,7 @@ class TccExtractor(object):
         return self.campus
     
     def _abstract_metadata(self):
-        regex = re.compile(r'resumo:* (.*?) palavr(a|as)(.|\s)chav(e|es).')
+        regex = re.compile(r'resumo:* (.*?) (palavr(a|as)(.|\s)chav(e|es).|abstract)')
         self.abstract = regex.search(self._clean_variouspages_doc).group(1).strip().capitalize()
         return self.abstract
 
@@ -153,13 +153,19 @@ class TccExtractor(object):
         return self.grade
 
     def all_metadata(self):
+        if self._preparator.doc_ext == '.pdf':
+            pdf_embed_metadata = self._preparator.pdf_embed_metadata()
+            self._pdf_num_pages = pdf_embed_metadata.numPages
+        else:
+            self._pdf_num_pages = 0
+
         metadata = {'author_metadata':      self._author_metadata(),
                     'grade_metadata':       self._grade_metadata(),
                     'title_metadata':       self._title_metadata(),
                     'institution_metadata': self._institution_metadata(),
                     'campus_metadata':      self._campus_metadata(),
                     'abstract_metadata':    self._abstract_metadata(),
-                    'number_pages':         self._pdf_embed_metadata.numPages
+                    'number_pages':         self._pdf_num_pages
                     }
         try:
             self._preparator.remove_converted_document()
@@ -175,10 +181,9 @@ class EventExtractor(object):
         self._template_metadata = parse.xml_template_metadata()
         page = self._template_metadata['page']
         self._preparator = Preparator(doc_dir)
-        self._raw_onepage_doc = self._preparator.pdf_to_raw_text(page, page)
+        self._raw_onepage_doc = self._preparator.raw_text_convertion(page, page)
         self._linetokenized_onepage_doc = line_tokenize(self._raw_onepage_doc)
         self._clean_onepage_doc = self._raw_onepage_doc.replace('\n', ' ')
-        self._pdf_embed_metadata = self._preparator.pdf_embed_metadata()
         self._email_regex = re.compile(r'(\w+[.|\w])*@(\w+[.])*\w+')
 
     def _author_metadata(self):
@@ -194,8 +199,11 @@ class EventExtractor(object):
             line_mod = set(word_tokenize(line))
             has_corpus_common = bool(line_mod.intersection(name_corpus))
             has_residue = bool(line_mod.intersection(residues))
-            find_email = self._email_regex.search(line)
             if has_corpus_common and not has_residue:
+                find_email = self._email_regex.search(line)
+                if find_email:
+                    email = find_email.group()
+                    line = line.replace(email, '').strip()
                 self.authors.append(line)
         if not self.authors:
             clean_onepage_doc = self._clean_onepage_doc
@@ -232,10 +240,16 @@ class EventExtractor(object):
 
     
     def all_metadata(self):
+        if self._preparator.doc_ext == '.pdf':
+            pdf_embed_metadata = self._preparator.pdf_embed_metadata()
+            self._pdf_num_pages = pdf_embed_metadata.numPages
+        else:
+            self._pdf_num_pages = 0
+
         metadata = {'author_metadata':      self._author_metadata(),
                     'title_metadata':       self._title_metadata(),
                     'abstract_metadata':    self._abstract_metadata(),
-                    'number_pages':         self._pdf_embed_metadata.numPages
+                    'number_pages':         self._pdf_num_pages
                     }
         try:
             self._preparator.remove_converted_document()

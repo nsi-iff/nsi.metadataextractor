@@ -19,7 +19,7 @@
             <postdoctoral type = "palavra">pós doutorado,pós-doutorado</postdoctoral>    
         </metadata>
         <metadata id = "title">
-            <breaker type="general">monografia,trabalho,\n,-</breaker>
+            <breaker type="general">monografia,trabalho,\n</breaker>
         </metadata>
     </OnePage>
     <VariousPages startpage = "2" endpage = "10">
