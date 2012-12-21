@@ -6,8 +6,15 @@ from os.path import abspath, dirname, join, basename
 
 import unittest
 from should_dsl import should, should_not
+
+## Root path
 from nsi.metadataextractor.xml_parser import Parser
-from nsi.metadataextractor.extractor import Preparator, TccExtractor, EventExtractor
+from nsi.metadataextractor.preparator import Preparator
+
+## Extractors
+from nsi.metadataextractor.extractors.tcc import TccExtractor
+from nsi.metadataextractor.extractors.periodic import PeriodicExtractor
+from nsi.metadataextractor.extractors.event import EventExtractor
 
 ROOT_PATH = abspath(dirname(__file__))
 TEMPLATES_PATH = join(ROOT_PATH, '..', 'templates')
@@ -19,15 +26,16 @@ class TestPreparation(unittest.TestCase):
 		self.doc_dir = join(ROOT_PATH, 'testdocs', 'obtencaograu', 'doctest1.pdf')
 		self.preparator = Preparator(self.doc_dir)
 		self.xml_template_metadata = self.parse.xml_template_metadata()
-	
+
 	def test_pdf_document_exists(self):
 		document = basename(self.doc_dir)
 		documents = listdir(dirname(self.doc_dir))
 		document |should| be_into (documents)
 	
-	def test_pdf_to_txt_convertion(self):
+	def test_raw_text_convertion(self):
+		convertion_style = ""
 		page = self.xml_template_metadata['page']
-		self.preparator.pdf_to_raw_text(page, page)
+		self.preparator.raw_text_convertion(page, page, convertion_style)
 		documents = listdir(dirname(self.doc_dir))
 		self.preparator.temp_text_doc |should| be_into(documents)
 
@@ -35,9 +43,10 @@ class TestPreparation(unittest.TestCase):
 		len(self.preparator.parse_corpus('names')) |should| equal_to(6294)
 
 	def test_temporary_text_files_is_being_removed(self):
+		convertion_style = ""
 		page = self.xml_template_metadata['page']
 		documents = listdir(dirname(self.doc_dir))
-		self.preparator.pdf_to_raw_text(page, page)
+		self.preparator.raw_text_convertion(page, page, convertion_style)
 		self.preparator.temp_text_doc |should| be_into(documents)
 		self.preparator.remove_converted_document()
 
@@ -102,7 +111,7 @@ class TestEventExtractor(unittest.TestCase):
 
 	def test_event_document_has_an_abstract_metadata_pattern_found_by_regex(self):
 		doc = self.extractor._clean_onepage_doc
- 		matches = re.search(r'resumo:* (.*?) palavr(a|as)(.|\s)chav(e|es).', doc)
+ 		matches = re.search(r'resumo:* (.*?) (palavr(a|as)(.|\s)chav(e|es).|unitermos|descritores)', doc)
  		matches.group() |should| start_with('resumo')
  		self.extractor._abstract_metadata |should_not| equal_to('')
 
@@ -110,8 +119,25 @@ class TestEventExtractor(unittest.TestCase):
 		self.extractor._author_metadata() |should_not| be_empty
 
 	def test_event_document_has_title_type_metadata(self):
-		self.extractor._title_metadata() |should_not| be_empty 
+		self.extractor._title_metadata() |should_not| be_empty
 
+class TestPeriodicExtractor(unittest.TestCase):
+
+    def setUp(self):
+		self.doc_dir = join(ROOT_PATH, 'testdocs', 'periodic', '1_pt-br.pdf')
+		self.preparator = Preparator(self.doc_dir)
+		self.extractor = PeriodicExtractor(self.doc_dir)
+		self.parse = Parser('periodic.xml')
+		self.xml_template_metadata = self.parse.xml_template_metadata()
+
+    def test_periodic_document_has_author_type_metadata(self):
+        self.extractor._author_metadata() |should_not| be_empty
+
+    def test_event_document_has_an_abstract_metadata_pattern_found_by_regex(self):
+		doc = self.extractor._clean_onepage_doc
+ 		matches = re.search(r'resumo:* (.*?) (palavr(a|as)(.|\s)chav(e|es).|unitermos|descritores)', doc)
+ 		matches.group() |should| start_with('resumo')
+ 		self.extractor._abstract_metadata |should_not| equal_to('')
 
 if __name__ == '__main__':
 	unittest.main()		

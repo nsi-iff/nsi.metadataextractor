@@ -1,0 +1,119 @@
+170 Arq Bras Oftalmol. 2012;75(3):170-3
+Artigo Original | Original Article
+RESUMO
+Objetivos: Comparar a tela de Amsler modificada com o campo visual Humphrey®
+10-2 vermelho nos usuários de cloroquina, na detecção da maculopatia precoce, e
+correlacionar com as variáveis de risco.
+Métodos: Foram analisados 116 olhos de 58 pacientes, acompanhados no Serviço
+de Oftalmologia do Hospital do Servidor Público Estadual de São Paulo, entre abril
+de 2006 e abril de 2008. Todos os usuários tinham fundo de olho normal e mais de
+dois anos de terapia com cloroquina. Os participantes tiveram seus dados clínicos
+avaliados e foram submetidos ao exame da acuidade visual corrigida, biomicroscopia
+de fundo, campimetria macular automatizada e tela de Amsler.
+Resultados: A incidência da maculopatia precoce foi de 7 a 10%, dependendo do
+exame considerado. A concordância entre a tela de Amsler e o campo visual foi baixa.
+Para o grupo de olhos que apresentaram ambos os exames alterados, houve signifi-
+cância estatística com a alta dose diária, dose cumulativa elevada e baixa acuidade
+visual; a idade do paciente e a duração do tratamento não mostraram boa correlação
+nestes casos, mas suas médias (67,4 anos e 8,4 anos, respectivamente) situaram-se
+dentro da faixa dos fatores de alto risco.
+Conclusões: O estudo sugere que a tela de Amsler pode ser útil na complemen-
+tação das informações do campo visual no rastreamento periódico da retinopatia
+por cloroquina, sobretudo naqueles com fatores de alto risco bem estabelecidos,
+selecionando melhor os candidatos à realização de testes objetivos, como o OCT de
+alta resolução e o ERG multifocal.
+Descritores: Cloroquina/efeitos adversos; Retina/efeito de drogas; Rastreamento;
+Cam­­­pos visuais; Acuidade visual; Fatores de risco
+ABSTRACT
+Purpose: To compare the modified Amsler grid to the Humphrey®
+ 10-2 red visual field
+in chloroquine users for the detection of early maculopathy, and to correlate with the
+risk variables. 
+Methods: The study included 116 eyes of 58 patients followed at the Department of
+Ophthalmology of Hospital do Servidor Público Estadual de São Paulo, from April, 2006 to
+April, 2008. All users had normal fundus and more than 2 years of chloroquine therapy.
+Their clinical data were evaluated and they underwent visual acuity examination, fundus
+biomicroscopy, visual field and Amsler grid. 
+Results: The incidence of early maculopathy was 7 to 10%, depending on the examina-
+tion considered. The agreement between the Amsler grid and visual field was low. There
+was statistical significance with the use of high daily dose, elevated cumulative dose and
+low visual acuity in patients whose eyes had both abnormal tests; patient age and dura-
+tion of treatment did not show good correlation in these cases, but their averages (67.4
+years and 8.4 years, respectively) were within the range of high risk factors. 
+Conclusions: The study suggests that Amsler can be useful in complementing the infor-
+mation on the visual field for chloroquine retinopathy periodic screening, especially for
+those patients who present high risk factors well established, selecting better candidates
+for objective tests, such as HD OCT and mfERG.
+Keywords: Chloroquine/adverse effects; Retina/drug effects; Screening; Visual fields;
+Visual acuity; Risk factors
+Tela de Amsler e campo visual no rastreamento da retinopatia por cloroquina
+Amsler grid and visual field on screening for chloroquine retinopathy
+Bruno Vargas Madalena1
+, Akiyoshi Oshima2
+, Pedro Durães Serracarbassa2
+	 Submetido para publicação: 30 de setembro de 2011
+	 Aceito para publicação: 19 de março de 2012
+	 Trabalho realizado no Departamento de Oftalmologia, Hospital do Servidor Público Estadual de
+São Paulo - HSPE - São Paulo (SP) Brasil.
+1
+	Médico, Hospital do Servidor Público Estadual de São Paulo - HSPE - São Paulo (SP) Brasil.
+2
+	Médico, Serviço de Retina e Vítreo, Hospital do Servidor Público Estadual de São Paulo - HSPE -
+São Paulo (SP) Brasil.	
+	Financiamento: Não houve financiamento para este trabalho.
+	 Divulgaçãodepotenciaisconflitosdeinteresse:B.V.Madalena,Não;A.Oshima,Não;P.D.Serracarbassa,
+Não.
+	 Endereço para correspondência: Bruno Vargas Madalena. Av. Dr. Pereira de Mattos, 100 - Caça­
+pava (SP) - 12281-450 - Brasil - E-mail: brunomadalena@ig.com.br
+INTRODUÇÃO
+O difosfato de cloroquina (DFC) e o sulfato de hidroxicloroquina
+(SHC) são fármacos eficientes e utilizados há várias décadas no tra­­­
+tamento de inúmeras doenças do tecido conectivo, sendo ampla­
+mente utilizados até a atualidade(1)
+. Ambos podem apresentar, porém,
+toxicidade retiniana(2)
+. O DFC é duas a três vezes mais tóxico para
+a retina do que o SHC(3)
+. Podem causar degeneração do epitélio
+pig­­­­­mentado retiniano e destruição dos fotorreceptores e células
+gan­­­glionares(4)
+, resultante da inibição de fosfolipases lisossomais e
+síntese proteica(5)
+. Há perda da visão central como queixa principal.
+A“maculopatia precoce”por cloroquina é definida pela presença
+de escotomas relativos, bilaterais e reprodutíveis, detectados por
+um dos métodos perimétricos teste com tela de Amsler (Amsler) ou
+teste de campo visual automatizado 10 graus com estímulo verme-
+lho (CV); a“maculopatia estabelecida”é representada por escotomas
+absolutos bilaterais, detectados por ambos os exames, que já indicam
+alterações fundoscópicas(2)
+.
+Os fatores de risco para toxicidade retiniana por DFC incluem
+do­­­se diária maior que 250 mg/dia(4)
+ou maior que 3 mg/kg/dia por
+mais de 5 anos(6)
+ou dose cumulativa maior que 300 g(4)
+, insuficiência
+hepática e/ou renal, obesidade (devido hiperdosagem), doença reti-
+niana prévia e idade maior que 60 anos(6)
+. A dose diária é considerada
+o fator mais relevante(7,8)
+.
+A cloroquina deverá ser suspensa ou diminuída após o diagnós­
+tico de maculopatia(9,10)
+. É fundamental atentar-se aos defeitos pre-
+coces do campo visual central, pois as alterações ainda podem ser
+re­­­versíveis(11)
+.
+Um exame oftalmológico de base deve ser realizado no início da
+terapia(6)
+. Posteriormente, exames anuais de rotina devem incluir acui­­­­
+dade visual, fundoscopia e teste com tela de Amsler e/ou CV(12,13)
+. O
+CV vermelho é muito mais sensível (91%) do que o branco, mas com
+especificidade menor (58%)(2)
+. A tela de Amsler com linhas brancas
+em fundo preto (convencional) é mais específica que a com linhas
+vermelhas, pois esta apresenta muitos falsos positivos(14)
+.
+
