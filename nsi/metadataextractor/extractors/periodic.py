@@ -30,9 +30,9 @@ class PeriodicExtractor(object):
         self.authors = self._eventextractor._author_metadata()
         return self.authors
 
-    ## Event abstracts metadata extractor extends method to periodic abstract extractor
     def _abstract_metadata(self):
-        self.abstract = self._eventextractor._abstract_metadata()
+        regex = re.compile(r'resumo:* (.*?) (palavr(a|as)(.|\s)chav(e|es).|unitermos|descritores)')
+        self.abstract = regex.search(self._clean_onepage_doc).group(1).strip().capitalize()
         return self.abstract
 
     def all_metadata(self):

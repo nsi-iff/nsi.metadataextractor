@@ -20,8 +20,8 @@ class Preparator(object):
 
     def raw_text_convertion(self, page1, page2, convertion_style):
         if self.doc_ext == '.pdf':
-            system("pdftotext -enc UTF-8 -f %i -l %i %s.pdf %s.txt %s"
-                %(page1, page2, self.doc_dir, self.doc_dir, convertion_style))
+            system("pdftotext %s -enc UTF-8 -f %i -l %i %s.pdf %s.txt"
+                %(convertion_style, page1, page2, self.doc_dir, self.doc_dir))
         raw_text = PlaintextCorpusReader(dirname(self.doc_dir), self.temp_text_doc).raw()
         encoded_lowertext = raw_text.decode('utf-8').lower().encode('utf-8')
         self.raw_text = re.sub(r'[0-9]', '', encoded_lowertext)
