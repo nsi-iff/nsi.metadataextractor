@@ -2,7 +2,10 @@ import argparse
 import sys
 from json import dumps
 
-from nsi.metadataextractor.extractor import TccExtractor, EventExtractor
+# Extractors
+from nsi.metadataextractor.extractors.tcc import TccExtractor
+from nsi.metadataextractor.extractors.event import EventExtractor
+from nsi.metadataextractor.extractors.periodic import PeriodicExtractor
 
 def set_args():
 	parser = argparse.ArgumentParser()
@@ -17,7 +20,8 @@ def main(args=sys.argv):
 	parser = set_args()
 	args = parse_args(parser)
 	extractors = {"tcc": TccExtractor(args.document),
-				  "event": EventExtractor(args.document)}
+	"event": EventExtractor(args.document),
+	"periodic": PeriodicExtractor(args.document)}
 	extractor = extractors[args.type]
 	metadata = extractor.all_metadata()
 	print dumps(metadata)
