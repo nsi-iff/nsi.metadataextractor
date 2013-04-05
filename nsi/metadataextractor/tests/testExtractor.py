@@ -40,9 +40,9 @@ class TestPreparation(unittest.TestCase):
 		self.preparator.temp_text_doc |should| be_into(documents)
 
 	def test_name_corpus_has_a_certain_quantity_of_names(self):
-		len(self.preparator.parse_corpus('names')) |should| equal_to(6294)
+		len(self.preparator.parse_corpus('names')) |should| equal_to(6297)
 
-	def test_temporary_text_files_is_being_removed(self):
+	def test_temporary_text_files_are_being_removed(self):
 		convertion_style = ""
 		page = self.xml_template_metadata['page']
 		documents = listdir(dirname(self.doc_dir))
@@ -77,6 +77,9 @@ class TestTccExtractor(unittest.TestCase):
 		self.parse = Parser('tcc.xml')
 		self.xml_template_metadata = self.parse.xml_template_metadata()
 
+	def test_metadata_extractor_generates_metadata_dict(self):
+		self.extractor.all_metadata() |should_not| be_empty
+
 	def test_tcc_document_has_one_or_more_confirmed_by_corpus_author_type_metadata(self):
 		len(self.extractor._author_metadata()) |should| be_greater_than_or_equal_to(1)
 		self.extractor._author_metadata() |should_not| contain('')
@@ -108,6 +111,9 @@ class TestEventExtractor(unittest.TestCase):
 		self.extractor = EventExtractor(self.doc_dir)
 		self.parse = Parser('event.xml')
 		self.xml_template_metadata = self.parse.xml_template_metadata()
+
+	def test_metadata_extractor_generates_metadata_dict(self):
+		self.extractor.all_metadata() |should_not| be_empty
 
 	def test_event_document_has_an_abstract_metadata_pattern_found_by_regex(self):
 		doc = self.extractor._clean_onepage_doc
