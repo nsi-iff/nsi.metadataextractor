@@ -12,7 +12,7 @@ Introduction
 Setup
 =====
 
-		pip install nsi.metadataextractor
+    pip install nsi.metadataextractor
 
 
 Example
@@ -34,8 +34,8 @@ Example
 
 **Bash**
 	
->>> extract_metadata /home/stuff/tccdocument.pdf -t tcc
->>> extract_metadata /home/stuff/eventdocument.pdf -t event
->>> extract_metadata /home/stuff/periodicdocument.pdf -t periodic
+	>>> extract_metadata /home/stuff/tccdocument.pdf -t tcc
+	>>> extract_metadata /home/stuff/eventdocument.pdf -t event
+	>>> extract_metadata /home/stuff/periodicdocument.pdf -t periodic
 
 
