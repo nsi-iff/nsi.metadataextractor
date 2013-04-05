@@ -37,8 +37,12 @@ class PeriodicExtractor(object):
 
     def all_metadata(self):
         if self._preparator.doc_ext == '.pdf':
-            pdf_embed_metadata = self._preparator.pdf_embed_metadata()
-            self._pdf_num_pages = pdf_embed_metadata.numPages
+            try:
+                pdf_embed_metadata = self._preparator.pdf_embed_metadata()
+                self._pdf_num_pages = pdf_embed_metadata.numPages
+            except:
+                print 'Encripted document'
+                self._pdf_num_pages = 0
         else:
             self._pdf_num_pages = 0
 
