@@ -3,11 +3,13 @@ Introduction
 
 **nsi.metadataextractor** is a metadata extractor for academic (Portuguese-BR) documents like:
 
-**Course Conclusion (ABNT format)**
-**Event Article**
-**Periodic Article**
+```
+Course Conclusion (ABNT format)
+Event Article
+Periodic Article
 
-`Supported extention: .pdf`
+Supported extention: .pdf
+```
 
 Setup
 =====
