@@ -2085,6 +2085,7 @@ lemuel
 lênis
 lenore
 leo
+leonir
 leocádia
 leodônia
 leon
@@ -2234,6 +2235,8 @@ marcial
 marcílio
 márcio
 marcionilo
+márcia
+marcia
 marco
 marcolino
 marcondes
