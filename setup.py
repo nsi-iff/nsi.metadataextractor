@@ -1,14 +1,14 @@
 from setuptools import setup, find_packages
 import sys, os
 
-version = '1.0.2'
-readme = open('README.rst').read()
+version = '1.2'
+readme = open('README.md').read()
 
 setup(name='nsi.metadataextractor',
       version=version,
       description="A template-based metadata extractor.",
       long_description=readme,
-      classifiers=[], # Get strings from http://pypi.python.org/pypi?%3Aaction=list_classifiers
+      classifiers=[],
       keywords='metadata extraction python',
       author='Oswaldo Ferreira',
       author_email='oswluizf@gmail.com',
